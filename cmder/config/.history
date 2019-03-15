@@ -12,3 +12,7 @@ git st
 dir
 dir
 exit
+dir
+git ll
+git st
+exit
