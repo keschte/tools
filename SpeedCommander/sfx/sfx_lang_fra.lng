@@ -1,0 +1,89 @@
+[description]	
+	
+0 = Français	
+	
+[data]	
+	
+0 = Confirmer	
+1 = Oui	
+2 = Non	
+3 = Annuler	
+4 = Remplacer tout	
+5 = &Agencer	
+6 = &Extraire	
+7 =À &propos…	
+8 = Ai&de	
+9 = ...	
+10 = Annuler	
+11 = &Remplacer les fichiers sans confirmation.	
+12 = Après l'extraction, &lancer: “%s”.	
+13 = %s: %lu fichiers(s)/répertoire(s) extrait(s)/testé(s).	
+14 = Clic sur “Extraire” pour extraire tous les fichiers de cette archive vers le répertoire spécifié.	
+15 = Clic sur “Extraire” pour extraire tous les fichiers de cette archive. Tous les fichiers seront extraits vers le répertoire.\nCe répertoire sera créé s'il n'existe pas.	
+	
+16 = Confirmez le remplacement	
+17 = Ce répertoire contient déjà un fichier nommé “%1”.	
+18 = Voulez-vous remplacer le fichier existant	
+19 = par celui-ci?	
+20 = %3!d! octets\nmodifié le %1, %2	
+21 = %3!d! Ko\nmodifié le %1, %2	
+22 = Oui pour &tous	
+	
+23 = Saisie du mot de passe	
+24 = Le fichier “%s” est protégé par un mot de passe. Entrez le mot de passe exact.	
+25 = Le répertoire de l'archive %s est encrypté. Entrez le mot de passe exact pour le répertoire de l'archive.	
+26 = Mot de passe	
+	
+27 = Introduire un nouveau disque	
+28 = Introduisez le disque %u dans le lecteur %s ou entrez un nouveau chemin.	
+29 = Introduisez le dernier disque dans le lecteur %s ou entrez un nouveau chemin.	
+	
+30 = Choisir un dossier	
+31 = &Dossiers	
+32 = &Lecteurs	
+	
+33 = L'archive est dégradée et contient une signature digitale erronée !\nOuvrir¦Extraire quand même?	
+34 = L'archive %s contient une signature digitale correcte. Cette archive a été crée le %s à %s par %s et n'a pas été dégradée.	
+	
+35 = Erreur de CRC.	
+36 = Accès refusé.	
+37 = Ce fichier ne pas semble être une archive valable.	
+38 = Mémoire insuffisante.	
+39 = Cette archive contient des données pas valables.	
+40 = Cette archive est protégée par un mot de passe.	
+41 = Disquette ou disque plein(e).	
+42 = Annulé par l'utilisateur.	
+43 = Impossible de lancer “%s”.	
+44 = Erreur (%u) dans %s.	
+	
+45 = Informations…	
+46 = Fichiers extraits: %lu   Erreurs: %lu   Avertissements: %lu.	
+47 = Cette archive auto-extractible a été créée grâce à la technologie Squeez.\n\nDes informations sur cette technologie et sur les logiciels qui utilisent\n cette technologie sont disponibles sur le site \n\n\thttp://www.speedproject.com/\n\nCopyright© 1993-2013 SWE Sven Ritter\nTous droits réservés.	
+48 = Installer	
+49 = &Dossier.	
+50 = Informations	
+51 = Aide	
+52 = Auto-extracteur Squeez - %s	
+53 = Signature digitale	
+54 = Installation pas terminée.\nQuitter quand même l'installation?	
+	
+55 = Extraction de %s, %lu%%\r	
+56 = Test de %s, %lu%%\r	
+57 = \nLe fichier %s existe déjà. Remplacer?\n	
+58 =              (%s = %s | %s = %s | %s = %s | %s = %s) :	
+59 = Toujours oui\n\n	
+60 = Toujours annuler\n\n	
+61 = \nLe fichier %s est crypté. Entrez le mot de passe exact.\nMot de passe: 	
+62 = \nLa table du contenu de l'archive %s est crypté. Entrez\r\nle mot de passe exact. Mot de passe : 	
+63 = \n\nIntroduire le disque %lu dans le lecteur %s ou indiquez un nouveau chemin.\nENTRÉE = Confirmer, ESC = Annuler\nChemin: 	
+64 =  -switch -switch -switch  ...\n\n	
+65 = Paramètres\n	
+66 = -y: Répondre «oui» à tout (remplacer, voir).\n	
+67 = -p: pChemin. Spécifie le chemin pour la décompression (ex. pC:\\DOS).\n	
+68 = -t: Test de l'archive seulement.\n	
+69 = \n Tapez sur une touche...\n	
+70 = \n	
+71 = Toujours	
+72 = Extraire %s dans %s?\n\n	
+73 = \nAvertissement: %s a plus de  8 caractères. Le DOS coupera l'excédent, certains fichiers  pourrait être écrasés.\n	
+	

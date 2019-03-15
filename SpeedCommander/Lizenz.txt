@@ -1,0 +1,70 @@
+Lizenzbedingungen
+-----------------
+
+Die mit dieser Lizenz erworbene Software (im folgenden als "Software" 
+bezeichnet) ist Eigentum der Firma SWE Sven Ritter oder deren Lizenzgeber und 
+ist durch nationale Gesetze und internationale Verträge urheberrechtlich 
+geschützt. Mit der Annahme der Lizenzbedingungen erhalten Sie das Recht zur 
+Benutzung der Software. Sofern nicht durch eine mit dieser Lizenz 
+ausgelieferte Zusatzvereinbarung andere Regelungen getroffen werden, 
+unterliegt die Nutzung der Software folgenden Bestimmungen:
+
+Sie sind berechtigt:
+
+(a)	eine Kopie der Software auf einem Einzelcomputer zu benutzen.
+
+(b)	eine Kopie der Software zu Archivierungszwecken anzufertigen oder 
+	die Software auf die Festplatte Ihres Computers zu kopieren und die 
+	Originaldisketten oder die Original-CD zu archivieren.
+
+(c)	die Software in einem Netzwerk einzusetzen, vorausgesetzt, dass Sie über 
+	eine lizenzierte Kopie der Software für jeden Computer verfügen, der über 
+	das Netzwerk auf die Software zugreifen kann.
+
+(d)	nach schriftlicher Benachrichtigung an SWE Sven Ritter die Software 
+	dauerhaft einem Dritten zu überlassen, vorausgesetzt, dass Sie alle 
+	Kopien der Software oder der Begleitdokumentation übergeben und der 
+	Empfänger der Software sich mit den Bestimmungen dieser 
+	Lizenzvereinbarung einverstanden erklärt.
+
+(e)	als Einzelperson die Software auf bis zu fünf Computern zu installieren, 
+	vorausgesetzt, dass nur Sie als Lizenzinhaber die Software benutzen.
+
+(f) die Software durch Erwerb einer Familienerweiterung auf allen privat
+	genutzten Computern eines Haushalts einzusetzen, sofern Sie dabei
+	die maximale Anzahl der zusätzlich erworbenen Aktivierungen nicht
+	überschreiten.
+
+
+Sie sind NICHT berechtigt:
+
+(a)	die mit der Software gelieferte Dokumentation zu kopieren.
+
+(b)	die Software ganz oder teilweise zu verleihen oder zu vermieten oder 
+	Unterlizenzen zu vergeben.
+
+(c)	die Software zurückzuentwickeln (reverse engineering), zu dekompilieren, 
+	zu disassemblieren oder auf andere Weise versuchen, den Quellcode der 
+	Software zugänglich zu machen, die Software zu ändern, zu übersetzen 
+	oder davon abgeleitete Produkte zu erstellen.
+
+(d)	nach Erhalt einer Austausch-CD oder einer Upgrade- oder Update-Version 
+	als Ersatz für eine frühere Version die vorher erhaltene Kopie oder 
+	die frühere Version der Software zu benutzen oder zu verkaufen. 
+
+
+Beschränkte Garantie:
+
+Diese Software wird geliefert wie sie ist, ohne irgendwelche ausdrückliche 
+oder inbegriffene Garantie. Wir machen darauf aufmerksam, dass es nach dem 
+Stand der Technik nicht möglich ist, Computersoftware zu erstellen, die in 
+allen Anwendungen und Kombinationen fehlerfrei arbeitet. Wir haben jedoch bei 
+der Entwicklung dieser Software größte Sorgfalt walten lassen und werden auch 
+künftig bemüht sein, etwaige Unstimmigkeiten oder Fehler zu beseitigen.
+
+Wir haften nicht dafür, dass die Software Ihren Bedürfnissen entspricht oder 
+dass die Software ohne Unterbrechung und fehlerfrei arbeitet. Wir haften 
+jedoch dafür, dass die Datenträger, auf denen die Software geliefert wird, 
+bei normalem Gebrauch keine Material und  Verarbeitungsschäden aufweisen. 
+Diese Haftung gilt für den gesetzlich vorgegebenen Zeitraum von 24 Monaten vom 
+Datum der Auslieferung an. Jede weitere Haftung ist ausgeschlossen.

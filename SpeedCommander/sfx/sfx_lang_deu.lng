@@ -1,0 +1,108 @@
+[description]
+
+0 = Deutsch
+
+[data]
+
+; Schaltflaechen
+0 = OK
+1 = Nein
+2 = Abbrechen
+3 = Alle ersetzen
+4 = &Installieren
+5 = &Entpacken
+6 = I&nfo über
+7 = &Hilfe
+8 = ...
+9 = Abbrechen
+
+;Standard-SFX
+10 = &Dateien ohne Nachfrage überschreiben
+11 = Nach dem Entpacken '%s' starten
+12 = %s: %lu Datei(en)/Ordner entpackt/getestet.
+13 = Klicken Sie bitte auf die Schaltfläche 'Entpacken',\num alle Dateien dieses Archives zu extrahieren.
+14 = Klicken Sie auf die Schaltfläche 'Entpacken', um alle Dateien dieses Archivs zu extrahieren.\nAlle Dateien werden in den in 'Zielordner' angegebenen Ordner entpackt. Sofern dieser\nOrdner noch nicht existiert, wird er erzeugt.
+
+;Dialoge
+15 = Ersetzen von Dateien bestätigen
+16 = Dieser Ordner enthält bereits eine Datei namens '%1'.
+17 = Soll die vorhandene Datei
+18 = durch diese ersetzt werden
+19 = %3!d! Bytes\ngeändert am %1, %2
+20 = %3!d! KB\ngeändert am %1, %2
+21 = Kennwort-Abfrage
+22 = Der Zugriff auf die Datei %s ist mit einem Kennwort geschützt. Bitte geben Sie das korrekte Kennwort an.
+23 = Das Verzeichnis von %s ist mit einem Kennwort geschützt. Bitte geben Sie das korrekte Kennwort an.
+24 = Kennwort
+25 = Neues Medium einlegen
+26 = Legen Sie bitte Medium %u in Laufwerk %s ein oder geben Sie einen neuen Pfad an.
+27 = Bitte wählen Sie den Ordner, in den das Archiv entpackt werden soll.
+28 = Dateien auswählen
+29 = Das Archiv wurde auf Echtheit überprüft und stimmt anscheinend NICHT mit dem Originalarchiv überein. Soll es trotzdem geöffnet/entpackt werden?
+30 = Das Archiv %s enthält eine gültige digitale Signatur. Dieses Archiv wurde am %s um %s von %s erzeugt und stimmt mit dem Original überein.
+
+;Fehler
+31 = Prüfsummenfehler.
+32 = Der Zugriff auf eine Datei wurde vom System verweigert.
+33 = Das Archiv ist anscheinend kein gültiges Archiv.
+34 = Zu wenig Speicher.
+35 = Das Archiv enthält ungültige Daten.
+36 = Das Archiv ist mit einem Kennwort geschützt.
+37 = Diskette oder Festplatte ist voll.
+38 = Abbruch durch Anwender.
+39 = Die Datei '%s' konnte nicht ausgeführt werden.
+40 = Fehler (%u) in %s.
+
+;Allgemein
+41 = Hinweis
+42 = Dieses SFX-Archiv wurde mit SpeedCommander erzeugt.\n\nInformationen über SpeedCommander erhalten Sie unter\n\n\thttp://www.speedproject.de\n\nCopyright© 1993-2017 SWE Sven Ritter\nAlle Rechte vorbehalten.
+43 = Zielordner:
+44 = Information
+45 = Hilfe
+46 = SpeedCommander-SFX - %s
+47 = Digitale Signatur
+48 = Die Installation wurde anscheinend noch nicht beendet.\nWollen Sie diese trotzdem abbrechen?
+
+;Menu
+49 = &Datei
+50 = &Entpacken\tStrg+E
+51 = &Alle entpacken\tStrg+Umschalt+E
+52 = &Beenden
+53 = &Bearbeiten
+54 = &Alle auswählen\tStrg+A
+55 = &Einige auswählen\tStrg+M
+56 = &Auswahl umkehren
+57 = &Ansicht
+58 = &Große Symbole
+59 = &Kleine Symbole
+60 = &Liste
+61 = &Details
+62 = &Sortieren nach
+63 = &Name
+64 = &Typ
+65 = &Größe
+66 = &Datum
+67 = &Attribute
+68 = &Einsparung
+69 = &Komprimierte Größe
+70 = Ko&mmentar
+71 = &Ordner
+72 = &Hilfe
+73 = &Homepage
+74 = &Info über SpeedCommander SFX
+
+;Listenansicht
+75 = Name
+76 = Größe
+77 = Typ
+78 = Geändert am
+79 = Attribute
+80 = Komprimiert
+81 = Einsparung
+82 = Kommentar
+83 = Ordner
+84 = %ld Objekt(e)
+85 = %ld Objekt(e) markiert
+86 = %s (Komprimiert: %s)
+87 = Drücken Sie <Escape>, um den Vorgang abzubrechen.
+88 = Unbekannte Datei

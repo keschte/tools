@@ -1,0 +1,14 @@
+cd ..
+dir
+git init
+git add .
+cls
+git remote add origin git@github.com:keschte/tools.git
+git commit -m "initial commit"
+git push -u origin master$
+git push
+git push -u origin master
+git st
+dir
+dir
+exit

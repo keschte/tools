@@ -1,0 +1,120 @@
+18.10.9300 - 18.02.2019
+
+[#] Aktualisierung von CRT/MFC/Compiler auf Visual Studio 2017 (15.9)
+[#] Schnellansicht: Aktualisierung von DynaPDF auf Version 4.0.25.72
+[+] Pro-Version: Prüfung auf maximale Dateigröße (2 GiB) beim Upload auf HiDrive
+[+] Schnellansicht: Anzeige von zusätzlichen SHA256-Zertifikaten für signierte Programmdateien
+[+] SCBackupRestore: Für die Wiederherstellung von Sicherungszeitpunkten sowie für die Erstellung/Aktualisierung einer portablen Version kann der "Ersetzen von Dateien"-Dialog deaktiviert werden
+[+] SCBackupRestore: Bei der Erstellung/Aktualisierung einer portablen Version können optional nur die Programmdateien kopiert werden
+[+] SCBackupRestore: Verhinderung des Löschens der SpeedCommander-Konfiguration über "Spezial - Konfiguration löschen", wenn der Ordner mit den aktuellen SpeedCommander-Konfigurationsdateien als Basisordner eingestellt ist
+[-] Möglicher Absturz beim Start in ucrtbase.dll
+[-] Auf älteren Systemen ohne Universal CRT wurde die Dll api-ms-win-crt-time-l1-1-0.dll nicht in das Programmverzeichnis kopiert
+[-] Pro-Version: Nach dem Aufruf von 'Zugriffstoken zurücksetzen' wurde die Liste mit den Cloud-Verbindungen nicht neu eingelesen
+[-] Pro-Version: Zugriff auf OneDrive hat nach Abschaltung der SkyDrive-API durch Microsoft nicht mehr funktioniert
+[-] Pro-Version: Keine automatische Sortierung der Ansicht nach dem Umbenennen eines Eintrag im Cloud-AddIn
+[-] Pro-Version: Mögliche Fehlermeldung 'Die Eingabezeichenfolge hat das falsche Format' beim Zugriff auf Nextcloud
+[-] Dateifilter: Absturz bei der Auswahl des Eintrags 'Allgemein - Bewertung' im 'Abfrage erstellen'-Dialog
+[-] Dateioperation: Möglicher Absturz beim Kopieren von Sparse-Dateien auf nicht-NTFS Datenträger
+[-] Schnellansicht: Bei der Anzeige von PDF-Dateien mit gedrehter Seitenausrichtung wurde ein zusätzlicher weißer Rand angezeigt
+[-] Aktualisierung: Möglicher Absturz beim Aktualisieren der Baumansicht
+[-] RAR: Mögliche Endlosschleife, wenn beim Entpacken eines verschlüsselten RAR5-Archivs ein falsches Kennwort eingegeben wurde
+[-] SpeedEdit: Der Bereich für Zeilennummern wurde bei siebenstelligen Zeilennummern bei einigen Schriftarten abgeschnitten
+
+-----------------------------------------------------------------------------------------------------------------------
+18.00.9200 - 05.11.2018 (Release)
+
+[-] Pro-Version: Keine Fehlermeldung, wenn beim Erstellen eines Datenträgerabbilds der freie Speicherplatz im Zielverzeichnis nicht ausreicht
+[-] Listenansicht: Nach dem Wechsel zu SpeedCommander verschwand der Auswahlbalken unter bestimmten Umständen
+[-] Listenansicht: Beim Doppelklick auf eine Ordnerverknüpfung (.lnk) im Desktop-Verzeichnis wurde das verknüpfte Verzeichnis nicht in SpeedCommander angezeigt
+[-] Schnellansicht: Darstellungsfehler bei der gleichzeitigen Anzeige von mehreren Seiten einer PDF-Datei
+
+-----------------------------------------------------------------------------------------------------------------------
+18.00.9185 - 22.10.2018 (Releasekandidat 2)
+
+[-] Beim Neustart oder Herunterfahren von Windows 10 (ab 1709) wurde die Meldung 'Diese App verhindert den Neustart' angezeigt
+[-] Bearbeiten-Schaltfläche im QuickDrop-Dialog wurde beim Vergrößern des Dialogs nicht korrekt positioniert
+[-] Ordnerfenster: Nach dem Drücken von <Enter> im Schnellfilter wurde nicht automatisch zurück in das Ordnerfenster gewechselt
+[-] Dateioperation: Unnötige Verzögerungen beim Berechnen von Hashwerten
+[-] Pro-Version: Verzeichnisse von FAT16-Datenträgern wurden unter bestimmten Umständen nicht korrekt eingelesen
+[-] SCBackupRestore: Fehler beim Aufruf aus einer mobilen Version (USB-Stick)
+
+-----------------------------------------------------------------------------------------------------------------------
+18.00.9165 - 08.10.2018 (Releasekandidat 1)
+
+[+] Designs für Office 2016 in Weiß, Dunkelgrau, Schwarz, Rot, Blau und Grün
+[+] Symbole in 48/64-Auflösung für eine bessere Darstellung der Symbolleisten in einzelnen Dialogfeldern bei einer Windows-Skalierung von bis zu 400%
+[+] Unterstützung von mehreren Bildschirmen mit unterschiedlichen DPI-Einstellungen ab Windows 10 (1703)
+[+] Farbe und Schrift im integrierten Befehlsausgabefenster können angepasst werden (Einstellungsdialog Extras-Spezielles)
+[+] Optionale Verwendung des PowerShell-Befehlsinterpreters im Befehlsausgabefenster sowie beim Aufruf der Eingabeaufforderung (Einstellungsdialog Extras-Spezielles)
+[+] 'Ordner - Pfadname als Text kopieren' für eine Netzwerkfreigabe kopiert den Namen in der Form \\Rechner\Freigabe (anstatt Desktop\Netzwerk\Rechner\Freigabe)
+[+] Exportieren/Importieren von Farbschemen
+[+] Bei der Eingabe eines Dateinamens über 'Ordner - Wechseln zu - Gehe zu' (Strg+G) wird in den Ordner gewechselt und der Dateiname fokussiert
+[+] Suchfeld für bestimmte Einstellungen in den Einstellungsdialogen
+[+] Optionale Angabe von zusätzlichen Programmparametern, die dem Editor beim Start übergeben werden (Einstellungsdialog "Erweitert - Anwendungen & Internet")
+[+] Erweiterung der QuickDrop-Anwendungen (zusätzliche Parameter, Text für InfoTip und Symboldatei)
+[+] LuaHelper.exe für UAC-Aktionen wird nach einem Leerlauf von 10 Minuten automatisch beendet, Timeout kann in 'Extras - Spezielles' angepasst werden
+[+] Aufruf der Hilfe zur aktuellen Seite des Einstellungsdialogs durch Drücken von F1
+[+] Erstellung eines Bildschirmfotos vom Programmfenster über das Systemmenü
+[+] Pro-Version: Sortieren von FAT/FAT32-formatierten Wechseldatenträgern (Pro - Wechseldatenträger sortieren)
+[+] Pro-Version: Zugriff auf Wiederherstellungspunkte und Schattenkopien über das VssSnapshots-AddIn
+[+] Dateifilter: Option zum Umkehren des Abfrageergebnisses im 'Abfrage bearbeiten'-Dialog
+[+] Ordnerfenster: Öffnen eines Ordners in einem neuen Ordnerfenster, wenn bei der Auswahl eines Eintrags mit der Maus zusätzlich die Strg-Taste gedrückt wird (Favoriten, Ordnerfavoriten, Systemordner, Desktop, Verlauf, Ordnerhierarchie)
+[+] Ordnerfenster: Bei Eingabe eines nicht existierenden Ordners über 'Ordner - Wechseln zu - Gehe zu' (Strg+G) wird der Ordnername solange gekürzt, bis ein gültiger Ordnername erreicht ist
+[+] Ordnerfenster: Auswählen-Befehle 'Auswahl speichern', 'Gegenüberliegende Auswahl übernehmen' und 'Gegenüberliegende Auswahl wiederherstellen'
+[+] Listenansicht: Konfigurierbare Verzögerung bei der automatischen Berechnung der Ordnergrößen
+[+] Listenansicht: Umkehr der Filterung im Schnellfilter, wenn das erste Zeichen im Text ein Doppelpunkt (:) ist
+[+] Listenansicht: Umkehr des gewählten Filtereintrags im Schnellfilter, wenn das erste Zeichen im Text ein Pipe-Zeichen (|) ist
+[+] Listenansicht: Einfügen von Zeichen aus der Zwischenablage über Strg+V im Eingabefeld der Schnellsuche (Schnellsuche-Modus)
+[+] Listenansicht: Anzeige von Zeitstempeln in der Listenansicht als relatives Datum (Vorgestern, Gestern, Heute, Morgen, Übermorgen)
+[+] Listenansicht: Farben für aktives Schnellfilter-Fenster und RegEx-Fehler können angepasst werden (Einstellungsdialog 'Extras - Spezielles')
+[+] Listenansicht: 'Abzweigung' als Element bei der Farbdefinition (Einstellungsdialog Aussehen-Farben)
+[+] Listenansicht: Anzeige des OneDrive-Status für einzelne Dateien in der Status-Spalte (ab Windows 10 1709)
+[+] Listenansicht: Automatisches Umschalten zur Listenansicht im Schnellfilter-Modus nach einer bestimmten Zeitspanne (Einstellungsdialog "Verhalten - Allgemein")
+[+] Dateioperation: Anzeige und Vergleich von Hashwerten für eine Datei (Datei - Mehr Eigenschaften)
+[+] Schnellansicht: Umstellung des PDF-Betrachters von PDF-XChange 3.6 auf DynaPDF 4.0
+[+] Schnellansicht: Anzeige von animierten GIF-Dateien
+[+] Schnellansicht: Anzeige von RAW-Dateien (ab Windows 8.1 oder Windows 7 mit Microsoft-Kamera-Codec-Paket)
+[+] Schnellansicht: Anzeige von Bilddateien über die WIC-Schnittstelle (Windows Imaging Components), erweiterbar über externe Codecs (z.B. FastPictureViewer Codecs)
+[+] Schnellansicht: Automatische Anpassung des Bildbetrachters an die aktuelle DPI-Auflösung kann deaktiviert werden (Kontextmenü des Bildbetrachters, Untermenü 'Skalierung')
+[+] Mehrfaches Umbenennen: Verwenden von regulären Ausdrücken beim Suchen/Ersetzen
+[+] Mehrfaches Umbenennen: Vereinfachtes Auswählen des Startwertes und der Länge für die Namens- und Erweiterungstoken (Rechtsklick auf einen Eintrag)
+[+] Mehrfaches Umbenennen: Statusanzeige für Anzahl der Einträge und Konflikte
+[+] Mehrfaches Umbenennen: Springen zum nächsten/vorherigen Konflikteintrag mit F3 bzw. Umschalt+F3
+[+] Mehrfaches Umbenennen: Anzeige der Profile im Profilmenü aufgeteilt in Untermenüs bei mehr als 10 Profilen
+[+] Mehrfaches Umbenennen: Dateien können nach dem Umbenennen in der Liste belassen werden
+[+] Mehrfaches Umbenennen: Aktualisierung der Vorschauliste erfolgt verzögert 250 ms nach dem letzten Eingabe
+[+] Mehrfaches Umbenennen: Nach einer Rückgängig-Operation wird die Dateiliste wieder automatisch mit den bisherigen Dateinamen gefüllt
+[+] Mehrfaches Umbenennen: Anzeige einer Dateiliste mit Fehlermeldungen, wenn eine Datei nicht umbenannt werden konnte
+[+] Mehrfaches Umbenennen: Kontextmenübefehl zum Entfernen von Einträgen aus der Listenansicht
+[+] Mehrfaches Umbenennen: Automatisches Auflösen von Konflikten durch Anhängen eines Zählers an den Dateinamen (optional)
+[+] Mehrfaches Umbenennen: Automatisch korrigierte Konflikte werden farblich gekennzeichnet
+[+] Mehrfaches Umbenennen: Beim Namenstoken gibt ein negativer Wert für die Anzahl der Zeichen [n,x,-y] die Position des letzten zu übernehmenden Zeichens an (ausgehend vom Ende des Namens)
+[+] Makros: UseRegularExpressions-Eigenschaft für das MultiRename-Objekt
+[+] Makros: InitFromProfile-Methode für das MultiRename-Objekt
+[+] Makros: KeepRenamedFiles-Eigenschaft für das MultiRename-Objekt
+[+] Makros: FixDoubles-Eigenschaft für das MultiRename-Objekt
+[+] Makros: TabColor-Eigenschaft für FolderWindow-Objekt
+[+] SpeedEdit: Nachfrage beim Öffnen einer nicht vorhandenen Datei, ob diese erstellt werden soll
+[+] SpeedEdit: Mehrfachauswahl durch zusätzliches Drücken der Strg-Taste beim Auswählen von Text mit der Maus
+[+] SpeedEdit: Gleichzeitiges Eingeben und Löschen von Zeichen in Spaltenmarkierungen sowie bei Mehrfachauswahl
+[+] SpeedEdit: Hervorhebung der aktuellen Zeile ist auch als Umrahmung möglich (Einstellungen - Editor)
+[+] SpeedEdit: Umkehren der Reihenfolge von markierten Zeilen (Bearbeiten - Zeile - Umkehren)
+[+] SpeedEdit: Starten von mehreren Instanzen (Einstellungen - Allgemein)
+[+] SpeedView: Starten von mehreren Instanzen (Ansicht-Menü)
+[+] FileSync: Synchrone Änderung der Spaltengröße für namensgleiche Spalten
+[+] FileSync: Prüfung des freien Speicherplatzes vor der Synchronisation
+[+] SCBackupRestore: Höhere Geschwindigkeit beim Sichern und Wiederherstellen
+[#] Aktualisierung von Compiler und CRT auf Visual Studio 2017 (15.6)
+[#] Aktualisierung von Xtreme Toolkit auf Version 18.5
+[#] FTP: Aktualisierung auf OpenSSL 1.0.2p
+[#] SpeedEdit: Aktualisierung von Scintilla auf Version 3.7.6
+[*] Menübefehl 'Pro - Ordnerliste mit Keseling DirPrinter' wird ausgeblendet, wenn im Einstellungsdialog auf der Seite 'Erweitert - Anwendungen & Internet' kein Pfadname im Eingabefeld 'DirPrinter' eingetragen ist
+[*] SCBackupRestore: Funktion zum Importieren von Einstellungen aus einer Vorversion wurde entfernt
+
+-----------------------------------------------------------------------------------------------------------------------
+Legende
+
+[+] Neue Funktion
+[*] Geändertes Verhalten
+[#] Aktualisierung
+[-] Behobenes Problem

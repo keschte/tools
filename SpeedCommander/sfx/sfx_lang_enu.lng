@@ -1,0 +1,107 @@
+[description]
+
+0 = English
+
+[data]
+
+0 = Ok
+1 = No
+2 = Cancel
+3 = Replace all
+4 = &Setup
+5 = &Extract
+6 = I&nfo about
+7 = &Help
+8 = ...
+9 = Cancel
+
+;Standard SFX
+10 = &Overwrite files without prompting
+11 = When done extracting &run '%s'
+12 = %s: %lu file(s)/folder(s) extracted/tested.
+13 = Click on 'Extract' to extract all files from this\narchive to the specified folder.
+14 = Click on 'Extract' to extract all files from this archive. All files will be extracted to 'Folder'.\nThis folder will be created if it does not exist.
+
+;Dialogs
+15 = Confirm Replace
+16 = This folder already contains a file named '%1'.
+17 = Would you like to replace the existing file
+18 = with this one?
+19 = %3!d! Bytes\nlast modified %1, %2
+20 = %3!d! KB\nlast modified %1, %2
+21 = Prompt for Password
+22 = The file "%s" is password protected. Please enter the correct password.
+23 = The directory of the archive %s is encrypted. Please enter the correct password for the archive directory.
+24 = Password
+25 = New Disk Required
+26 = Please insert disk %u in drive %s or enter a new path.
+27 = Please select the folder where the archive should be extracted.
+28 = Select Files
+29 = This archive was altered and contains a broken digital signature!\nOpen/Extract it anyway?
+30 = The archive %s contains a valid digital signature. This archive was created on %s at %s by %s and was not altered.
+
+; Errors
+31 = CRC-Error.
+32 = Access denied.
+33 = This file does not seem to be a valid archive.
+34 = Insufficient memory.
+35 = This archive contains invalid data.
+36 = This archive is password protected.
+37 = Floppy or disk is full.
+38 = Canceled by user.
+39 = Could not run '%s'.
+40 = Error (%u) in %s.
+
+; General
+41 = Information
+42 = This SFX-Archive was created with SpeedCommander.\n\nInformation on SpeedCommander is available at \n\n\thttp://www.speedproject.com/\n\nCopyright© 1993-2017 SWE Sven Ritter\nAll rights reserved.
+43 = &Folder:
+44 = Information
+45 = Help
+46 = SpeedCommander SFX - %s
+47 = Digital Signature
+48 = It seems that the installation has not been finished, yet.\nExit this installation anyway?
+
+;Menu
+49 = &File
+50 = &Extract\tCtrl+E
+51 = &Extract &All\tCtrl+Shift+E
+52 = &Exit
+53 = &Edit
+54 = Select &All\tCtrl+A
+55 = Select &Some\tCtrl+M
+56 = &Invert Selection
+57 = &View
+58 = &Large Icons
+59 = &Small Icons
+60 = &List
+61 = &Details
+62 = Sort &by
+63 = &Name
+64 = &Type
+65 = &Size
+66 = &Last modified
+67 = &Attributes
+68 = &Ratio
+69 = &Compressed
+70 = Co&mment
+71 = &Folder
+72 = &Help
+73 = &Homepage
+74 = &Info about SpeedCommander SFX
+
+;ListView
+75 = Name
+76 = Size
+77 = Type
+78 = Last modified
+79 = Attributes
+80 = Compressed
+81 = Ratio
+82 = Comment
+83 = Folder
+84 = %ld item(s)
+85 = %ld item(s) selected
+86 = %s (Compressed: %s)
+87 = Press <Escape> to cancel this operation.
+88 = Unknown file
