@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Settings>
+	<Suite>
+		<General StandardMenus="0" Language="1033" SortLogical="1" SaveHistory="1" MaxHistory="10"/>
+		<CommandBars Theme="16" ThemeFrame="0" RibbonStyle="1" ImageStyle="2" MenuImageSize="0" ToolbarImageSize="1" QuickTips="1" AccelTips="1" MenuAnimation="0"/>
+		<ListView ShowLocalizedNames="1" ShowDragImages="1" ShowHotItem="1" DecreaseHeaderHeightBy="0" WindowsFieldChooserDlg="0"/>
+	</Suite>
+	<SpeedCommander>
+		<RecentFileList/>
+		<Settings>
+			<General FirstRun="0"/>
+			<FileOps CopyOnlyNewerFiles="0" RenameOnCollision="0" CopyACLs="0" ClearReadOnly="0" FileOpFilter="0" CopyFolderTime="1" CopyCreationTime="0"/>
+			<FolderCompare Name="1" Size="1" Attributes="0" Accessed="0" Modified="1" Created="0" Select="0"/>
+			<MultiRename Layout="" TokenFileName="[n]" TokenExtension="[e]" SearchFor="" ReplaceWith="" DateTime="0" CharCase="0" Replace="0" ColorDouble="255, 0, 0" ColorExists="0, 0, 255"/>
+			<QuickDropWnd>
+				<Items/>
+			</QuickDropWnd>
+			<View AlwaysOnTop="0"/>
+			<Dialogs LastCnfgDlgPage="16" FileExecuteMode="0" SelectIncludeFolder="0" TweakExpandedState="1" ViewModeStreams="0" AccelTemplate="0" ProVerificationState="0" DontShowAgain="0"/>
+			<FolderInformation Detailed="1" LogFiles="1" FollowJunctions="1"/>
+			<ColumnHandlers>
+				<InitFolders/>
+			</ColumnHandlers>
+		</Settings>
+		<Behavior>
+			<General/>
+			<NCMode Enabled="0"/>
+			<Confirmations Copy="1" Move="1" DeleteReadOnly="1" DeleteSystem="1" MoveSystem="1" MoveReadOnly="1" ReplaceFolder="1" StreamLoss="1"/>
+			<FolderHistory/>
+			<Advanced OneClickActivate="0" CloseDOSWindowOnExit="0" FolderFavMenuAtCursor="0"/>
+			<QuickSearch/>
+			<InfoTips ShowInfoTips="1" InfoTipDrives="7" DriveInfoTipsWithSize="0"/>
+			<DragDrop/>
+			<Folder/>
+			<DriveSelection/>
+			<Refresh/>
+			<Tabs>
+				<Color/>
+			</Tabs>
+			<FolderSize CalcFolderSize="1" WatchForChange="0" Limit="0" LimitSize="100" OnlyForSelectedItems="0">
+				<Excluded Items="0"/>
+			</FolderSize>
+		</Behavior>
+		<Appearance>
+			<SplashScreen/>
+			<Caption/>
+			<Drives Desktop="1" Network="1" Internet="1" Ftp="1" AddIn="1" FileBucket="1" BurnProject="1" CmbChars="35"/>
+			<ListView FullRowSelect="1" TrackSelect="0" GridLines="0" HeaderInAllViews="1" AutoCheckSelect="0"/>
+			<Autosize AutoSizeSaved="-1" AutoSizeQuickView="0" AutoSizeInternet="80" AutoSizeQuickViewSplitter="0" AutoSizeInternetSplitter="80"/>
+			<Thumbnails/>
+			<Files>
+				<FilesToHide/>
+			</Files>
+			<Folders/>
+			<Columns/>
+			<Archives ArchivesLikeFolders="1" CheckSfxArchives="1" AdditionalArchiveFileTypes=""/>
+			<Network>
+				<SlowFolders/>
+			</Network>
+			<Sorting/>
+			<Status/>
+			<FolderCaption/>
+			<Colors/>
+		</Appearance>
+		<Advanced>
+			<Apps Viewer="SpeedView.exe" Editor="C:\\COL-Tools\\Editors\\notepad++\\notepad++.exe" DiskCopy="" DiskFormat="" Finder="FileSearch.exe" DirPrinter=""/>
+			<Internet Home="http://www.speedproject.de/" Search="http://www.google.de/" HangUpDUN="0"/>
+			<ContextMenu/>
+		</Advanced>
+		<FolderView>
+			<View/>
+			<Item/>
+		</FolderView>
+		<FileBucket/>
+		<MrtProfiles/>
+		<Layouts>
+			<UserDefined/>
+			<Default Name="" LayoutDrive="1" LayoutFolder="0" LayoutSpecial="0" SpecialPosition="0" Splitter="50" DosEdit="1" DosCommand="0" QuickDrop="1" Swapped="0">
+				<Tab1 SyncFolderTabs="0" ActiveFolderTab="0">
+					<Folders Items="1">
+						<Item0 Position="1" Name="(C) gridworks-publishing" Color="-16777216" TreeWnd="0" StatusWnd="1" SplitterTree="30" SplitterStatus="75" Flags="512" BaseFolder="">
+							<ListView Style="1" GroupView="0" UNC="v2;191,5,0,1;0,290,0;3,100,1;1,170,0;2,120,0;4,60,0" Archive="" Ftp="" FtpSite="" AddInSite="" FileBucket="" FileBucketRoot="" BurnProject="" BurnProjectRoot="">
+								<AddIns Items="0"/>
+								<Shell Items="1">
+									<Item0 GUID="{20D04FE0-3AEA-1069-A2D8-08002B30309D}" Profile="v2;9,4,0,1;0,180,0,{B725F130-47EF-101A-A5F1-02608C9EEBAC},10;1,225,0,{B725F130-47EF-101A-A5F1-02608C9EEBAC},4;2,144,1,{9B174B35-40FF-11D2-A27E-00C04FC30871},3;3,144,1,{9B174B35-40FF-11D2-A27E-00C04FC30871},2"/>
+								</Shell>
+							</ListView>
+							<Filter ID="0" Include="*.*" Exclude="*.*"/>
+							<Folder Type="0" Folder="C:\\projects\\hit-intranet\\_ext\\gridworks-publishing"/>
+						</Item0>
+					</Folders>
+				</Tab1>
+			</Default>
+		</Layouts>
+		<AddIns64/>
+		<AppFrame>
+			<WindowPlacement NormalPosition="439, 274, 1809, 1046" Flags="2" ShowCmd="3"/>
+			<CustomizeDlg LastPage="2"/>
+			<BarState Schema="41">
+				<Layout Visible="0">
+					<DockState Version="41" ScreenSize="1920, 1200" Count="2">
+						<BarInfo0 BarId="1" MRUWidth="32767" MRUDockPos="0, 1, 1904, 26"/>
+						<BarInfo1 BarId="5401" MRUWidth="32767" PointPos="0, 25"/>
+					</DockState>
+					<DockBars>
+						<DockBar0 Count="5" Id1="1" Id3="5401"/>
+						<DockBar1/>
+						<DockBar2/>
+						<DockBar3/>
+					</DockBars>
+				</Layout>
+			</BarState>
+		</AppFrame>
+		<FolderFavorites Items="3">
+		</FolderFavorites>
+		<UserTools Items="2">
+			<Item0 Name="cmder here" CmdId="34301" Command="C:\\tools\\cmder\\Cmder.exe" Parameter="/Start $(ActDir)" InitialDir="" ShowCmd="1" ShortPathNames="0" RunElevated="1"/>
+		</UserTools>
+	</SpeedCommander>
+	<MxFoxBurner>
+		<Projects/>
+	</MxFoxBurner>
+	<MxCommon>
+		<Filter/>
+		<FileOps Mode="3" StartPausedAutomatically="1" AlwaysActivateLast="0" QueueFileOps="0" Priority="0"/>
+	</MxCommon>
+	<History>
+		<MxCommon DlgFileOps="252, 252, 734, 458"/>
+		<SpeedCommander>
+			<Dialogs>
+				<UserTools WindowPlacement="MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPOHDAAAAAGNBAAAAAPHFAAAAALJDAAAAA"/>
+			</Dialogs>
+			<DosCommandLine Items="0"/>
+		</SpeedCommander>
+	</History>
+	<MxFtp>
+		<Settings/>
+		<FileOps/>
+		<Advanced/>
+		<Sites/>
+		<Proxies/>
+		<TrustedCertificates/>
+	</MxFtp>
+	<MxQuickView>
+		<Extensions/>
+	</MxQuickView>
+	<MxSqueez>
+		<General>
+			<FileFormat0/>
+			<FileFormat1>
+				<Advanced/>
+			</FileFormat1>
+			<FileFormat2/>
+			<FileFormat3/>
+			<FileFormat4/>
+			<FileFormat5/>
+			<FileFormat6/>
+			<FileFormat7/>
+			<FileFormat8/>
+			<FileFormat12/>
+			<FileFormat13/>
+			<FileFormat14/>
+			<FileFormat15/>
+			<FileFormat16/>
+			<FileFormat17/>
+			<FileFormat18/>
+			<FileFormat19/>
+			<FileFormat20/>
+			<FileFormat21/>
+			<FileFormat22/>
+			<FileFormat28>
+				<Advanced/>
+			</FileFormat28>
+		</General>
+		<Extract/>
+		<Compress/>
+		<Split/>
+		<Profiles/>
+	</MxSqueez>
+	<SpeedEdit>
+		<Settings/>
+		<View MDITabs="1"/>
+		<General MaximizeFrameWnd="0" MaximizeChildWnd="1" OpenLastDocs="0" RememberLastEditPos="1" CloseOnEscape="0" NotifyFileChanges="0" AutoReload="0" MaxMRUFiles="10" CreateBackup="0"/>
+		<LastFiles Items="0"/>
+		<Dialogs SettingsLastPage="-1"/>
+		<AppFrame>
+			<BarState Schema="41">
+				<Layout>
+					<DockState Version="41" ScreenSize="2560, 1440" Count="2">
+						<BarInfo0 BarId="1" MRUWidth="32767"/>
+						<BarInfo1 BarId="5101" MRUWidth="32767" PointPos="0, 25"/>
+					</DockState>
+					<DockBars>
+						<DockBar0 Count="5" Id1="1" Id3="5101"/>
+					</DockBars>
+				</Layout>
+			</BarState>
+			<WindowPlacement NormalPosition="130, 130, 2050, 1159" Flags="0" ShowCmd="1"/>
+		</AppFrame>
+	</SpeedEdit>
+	<FileSearch>
+		<Settings>
+			<General SingleInstance="0" CloseWhenGotoFile="0" DefaultAction="0" ExpandedHeight="465"/>
+			<Viewer Mode="0" LastWndPos="0, 0, 0, 0" Font="Courier New,10,0,0,1"/>
+			<ListView Style="1" Profile="v2;191,7,0,1;0,200,0;10,100,0;3,100,1;1,170,0;2,120,0;11,50,0;4,60,0" GroupView="0" AutoArrange="1" ItemsToInsert="250"/>
+		</Settings>
+		<Profiles Items="0"/>
+		<LastProfile Name="" CmdId="-1">
+			<Options SearchFolders="1" SearchArchives="0" IncludeSfx="0" SkipEncryptedArchives="1" IncludeSubDirs="1" FollowJunctions="1"/>
+			<Date Type="0" Method="0" PeriodValue="1" PeriodUnit="2" DateFrom="42405,705984" DateTo="42405,705984"/>
+			<Size SizeMin="0" SizeMax="0" SizeMinEnabled="0" SizeMaxEnabled="0" SizeMinUnit="0" SizeMaxUnit="0"/>
+			<Atributes Archive="2" ReadOnly="2" System="2" Hidden="2" Compressed="2" Encrypted="2" Offline="2" ReparsePoint="2" SparseFile="2" Temporary="2"/>
+			<Text SearchMode="0" Text="Write-GitStatus" AllHits="0" WholeWords="0" CaseSensitive="0" Ascii="0" Unicode="0"/>
+			<Hex Text="" AllHits="0"/>
+			<Doublettes Name="0" Size="0" Content="0"/>
+		</LastProfile>
+		<AppFrame>
+			<WindowPlacement NormalPosition="78, 78, 631, 647" Flags="0" ShowCmd="1"/>
+			<BarState Schema="41">
+				<Layout>
+					<DockState Version="41" ScreenSize="1920, 1200" Count="1">
+						<BarInfo0 BarId="1" MRUWidth="32767"/>
+					</DockState>
+					<DockBars>
+						<DockBar0 Count="3" Id1="1"/>
+					</DockBars>
+				</Layout>
+			</BarState>
+		</AppFrame>
+		<RecentFileList/>
+	</FileSearch>
+</Settings>

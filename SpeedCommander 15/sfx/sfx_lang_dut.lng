@@ -1,0 +1,88 @@
+[description]
+
+0 = Nederlands
+
+[data]
+
+0 = Ok
+1 = Ja
+2 = Nee
+3 = Annuleren
+4 = Alles vervangen
+5 = &Installatie
+6 = &Uitpakken
+7 = I&nfo over
+8 = &Help
+9 = ...
+10 = Annuleren
+11 = &Overschrijf bestanden zonder waarschuwing.
+12 = Wanneer klaar met uitpakken: Sta&rt: '%s'.
+13 = %s: %lu bestand(en)/map(pen) uitgepakt/getest.
+14 = Klik op 'Uitpakken' om alle bestanden uit dit\narchief uit te pakken naar de opgegeven map.
+15 = Klik op 'Uitpakken' om alle bestanden uit dit archief uit te pakken. Alle bestanden worden uitgepakt naar 'Map'.\nDeze map zal worden aangemaakt als deze niet bestaat.
+
+16 = Bevestig Vervaning
+17 = Deze map bevat al een bestand met de naam '%1'.
+18 = Bestaand bestand vervangen 
+19 = met dit bestand?
+20 = %3!d! Bytes\nlaatst gewijzigd %1, %2
+21 = %3!d! KB\nnlaatst gewijzigd %1, %2
+22 = Ja op &Alles
+
+23 = Vraag om wachtwoord
+24 = Het bestand "%s" is beveiligd met een wachtwoord. Voer het juiste wachtwoord in.
+25 = De map in het archief %s is versleuteld. VOer het juiste wachtwoord in voor de archief map.
+26 = Wachtwoord
+
+27 = Nieuwe schijf vereist
+28 = Plaats schijf %u in station %s of geef een nieuw pad.
+29 = Plaats de laatste schijf in station %s of geef een nieuw pad.
+
+30 = Kies map
+31 = &Mappen
+32 = &Stations
+
+33 = Dit archief is gewijzigd en bevat een defecte digitale handtekening!\nToch openen/uitpakken?
+34 = Het archief %s bevat een geldige digitale handtekening. Dit archief is aangemaakt op %s in %s door %s en is niet gewijzigd.
+
+35 = CRC-Fout.
+36 = Toegang geweigerd.
+37 = Dit bestand lijkt geen geldig archief te zijn.
+38 = Onvoldoende geheugen.
+39 = Dit archief bevat geen geldige data.
+40 = Dit archief is beveiligd met een wachtwoord.
+41 = Floppy fo schijf is vol.
+42 = Geannuleerd door gebruiker.
+43 = Kan '%s' niet starten.
+44 = Fout (%u) in %s.
+
+45 = Informatie
+46 = Bestanden uitgepakt: %lu   Fouten: %lu   Waarschuwingen: %lu.
+47 = Dit SFX-Archief is gemaakt met Squeez-Technology.\n\nInformatie over deze technologie en software, die deze\n technologie gebruiken is beschikbaar op \n\n\thttp://www.speedproject.com/\n\nCopyright© 1993-2013 SWE Sven Ritter\nAlle rechten voorbehouden.
+48 = Installeren
+49 = &Map:
+50 = Informatie
+51 = Help
+52 = Squeez Self Extractor - %s
+53 = Digitale Handtekening
+54 = Het lijkt erop dat de installie nog niet is voltooid.\nInstallatie toch afbreken?
+
+55 = Uitpakken %s, %lu%%\r
+56 = Testen %s, %lu%%\r
+57 = \nHet bestand %s bestaal al. Overschrijven?\n
+58 =              (%s = %s | %s = %s | %s = %s | %s = %s) :
+59 = Altijd ja\n\n
+60 = Alles annuleren\n\n
+61 = \nHet bestand %s is versleuteld. Voer het juiste wachtwoord in.\nWachtwoord: 
+62 = \nDe map van het archief %s is versleuteld. Voer het\r\njuiste wachtwoord in. Wachtwoord: 
+63 = \n\nPlaats schijf %lu in station %s of voer een nieuw pad in.\nENTER = OK, ESC = Annulere\nPad: 
+64 =  -switch -switch -switch  ...\n\n
+65 = Parameters\n
+66 = -y: Automatisch altijd 'ja' (overschrijven, bekijken).\n
+67 = -p: pPad. Geef doelpad voor uitpakken (bijv. pC:\\DOS).\n
+68 = -t: Test archief alleen.\n
+69 = \n Druk op een willekeurige toets...\n
+70 = \n		( %s = %s | %s = %s )
+71 = Altijd
+72 = Pak %s uit naar %s?\n\n
+73 = \nWaarschuwing: %s heeft meer dan 8 karakters. DOS zal deze naam afbreken tot 8 karakters, het is mogelijk dat sommige bestanden worden overschreven.\n

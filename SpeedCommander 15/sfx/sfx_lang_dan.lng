@@ -1,0 +1,88 @@
+[description]
+
+0 = Dansk
+
+[data]
+
+0 = Ok
+1 = Ja
+2 = Nej
+3 = Annuller
+4 = Overskriv alle
+5 = Op&sætning
+6 = &Udpak
+7 = I&nfo om
+8 = &Hjælp
+9 = ...
+10 = Annuller
+11 = &Overskriv filer uden at spørge.
+12 = Kø&r efter udpakning: '%s'.
+13 = %s: %lu file(r)/mappe(r) udpakket/testet.
+14 = Klik på 'Udpak' for at udpakke alle filer fra dette\narkiv til den angivne mappe.
+15 = Klik på 'Udpak' for at udpakke alle filer fra dette arkiv. Alle filer vil blive udpakket til 'Mappe:'.\nDenne mappe vil blive oprettet, hvis den ikke eksisterer.
+
+16 = Bekræft overskrivning
+17 = Denne mappe indeholder allerede en fil med navnet '%1'.
+18 = Ønsker du at overskrive den eksisterende fil
+19 = med denne?
+20 = %3!d! Bytes\nsidst ændret %1, %2
+21 = %3!d! KB\nsidst ændret %1, %2
+22 = Ja til &alt
+
+23 = Spørg om adgangskode
+24 = Filen "%s" er beskyttet med adgangskode. Angiv venligst den korrekte adgangskode.
+25 = Arkivets filliste %s er krypteret. angiv venligst den korrekte adgangskode til fillisten.
+26 = Adgangskode
+
+27 = Ny diskette krævet
+28 = Indsæt venligst disk %u i drev %s eller angiv ny sti.
+29 = Indsæt den sidste disk i drev %s eller angiv ny sti.
+
+30 = Vælg mappe
+31 = &Mapper
+32 = &Drev
+
+33 = Dette arkiv er ændret og indeholder en brudt digital signatur!\nÅben/udpak alligevel?
+34 = Arkivet %s indeholder en gyldig digital signatur. Arkivet blev oprettet d. %s kl. %s af %s og er ikke blevet ændret.
+
+35 = CRC-fejl.
+36 = Adgang nægtet.
+37 = Denne fil lader ikke til at være et gyldigt arkiv.
+38 = Utilstrækkelig hukommelse.
+39 = Dette arkiv indeholder ugyldige data.
+40 = Dette arkiv er beskyttet med kodeord.
+41 = Floppy eller disk er fuld.
+42 = Brugerafbrydelse.
+43 = Kunne ikke køre '%s'.
+44 = Fejl (%u) i %s.
+
+45 = Information
+46 = Filer udpakket: %lu   Fejl: %lu   Advarsler: %lu.
+47 = Dette SFX-arkiv er oprettet med Squeez-teknologi.\n\nInformation om denne teknologi og den software,\nsom bruger denne teknologi er tilgængelig på \n\n\thttp://www.speedproject.com/\n\nCopyright© 1993-2013 SWE Sven Ritter\nAll rights reserved.
+48 = Installer
+49 = &Mappe:
+50 = Information
+51 = Hjælp
+52 = Squeez Self Extractor - %s
+53 = Digital Signatur
+54 = Det lader til at installationen ikke er blevet fuldført endnu.\nAfslut installationen alligevel?
+
+55 = Udpakker %s, %lu%%\r
+56 = Tester %s, %lu%%\r
+57 = \nFilen %s eksisterer allerede. Overskriv?\n
+58 =              (%s = %s | %s = %s | %s = %s | %s = %s) :
+59 = Altid ja\n\n
+60 = Annuller alt\n\n
+61 = \nFilen %s er krypteret. Angiv venligst den korrekte adgangskode.\nAdgangskode: 
+62 = \nMappen i arkivet %s er krypteret. Angiv venligst\r\nden korrekte adgangskode. Adgangskode: 
+63 = \n\nIndsæt venligst disk %lu i drev %s eller angiv en ny sti.\nENTER = OK, ESC = Afbryd\nPath: 
+64 =  -param. -param. -param.  ...\n\n
+65 = Parametre\n
+66 = -y: Svar automatisk altid 'ja' (overskriv, vis).\n
+67 = -p: pSti. Angiver målstien for udpakningen (f.eks pC:\\DOS).\n
+68 = -t: Test kun arkivet.\n
+69 = \n Tryk på en tast...\n
+70 = \n		( %s = %s | %s = %s )
+71 = Hvergang
+72 = Udpak %s til %s?\n\n
+73 = \nAdvarsel: %s har mere end 8 tegn. DOS vil afskære dette navn til 8 tegn, så det kan ske at nogle filer vil blive overskrevet.\n

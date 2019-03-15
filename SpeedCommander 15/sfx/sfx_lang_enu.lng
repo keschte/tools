@@ -1,0 +1,88 @@
+[description]
+
+0 = English
+
+[data]
+
+0 = Ok
+1 = Yes
+2 = No
+3 = Cancel
+4 = Replace all
+5 = &Setup
+6 = &Extract
+7 = I&nfo about
+8 = &Help
+9 = ...
+10 = Cancel
+11 = &Overwrite Files Without Prompting.
+12 = When Done Extracting &Run: '%s'.
+13 = %s: %lu file(s)/folder(s) extracted/tested.
+14 = Click on 'Extract' to extract all files from this\narchive to the specified folder.
+15 = Click on 'Extract' to extract all files from this archive. All files will be extracted to 'Folder'.\nThis folder will be created if it does not exist.
+
+16 = Confirm Replace
+17 = This folder already contains a file named '%1'.
+18 = Would you like to replace the existing file
+19 = with this one?
+20 = %3!d! Bytes\nlast modified %1, %2
+21 = %3!d! KB\nlast modified %1, %2
+22 = Yes to &All
+
+23 = Prompt for Password
+24 = The file "%s" is password protected. Please enter the correct password.
+25 = The directory of the archive %s is encrypted. Please enter the correct password for the archive directory.
+26 = Password
+
+27 = New Disk Required
+28 = Please insert disk %u in drive %s or enter a new path.
+29 = Please insert the last disk in drive %s or enter a new path.
+
+30 = Choose folder
+31 = &Folders
+32 = &Drives
+
+33 = This archive was altered and contains a broken digital signature!\nOpen/Extract it anyway?
+34 = The archive %s contains a valid digital signature. This archive was created on %s at %s by %s and was not altered.
+
+35 = CRC-Error.
+36 = Access denied.
+37 = This file does not seem to be a valid archive.
+38 = Insufficient memory.
+39 = This archive contains invalid data.
+40 = This archive is password protected.
+41 = Floppy or disk is full.
+42 = Canceled by user.
+43 = Could not run '%s'.
+44 = Error (%u) in %s.
+
+45 = Information
+46 = Files extracted: %lu   Errors: %lu   Warnings: %lu.
+47 = This SFX-Archive was created with the Squeez-Technology.\n\nInformation on this technology and on software,that use\n this technology is available at \n\n\thttp://www.speedproject.com/\n\nCopyright© 1993-2013 SWE Sven Ritter\nAll rights reserved.
+48 = Install
+49 = &Folder:
+50 = Information
+51 = Help
+52 = Squeez Self Extractor - %s
+53 = Digital Signature
+54 = It seems that the Installation has not been finished, yet.\nExit this Installation anyway?
+
+55 = Extracting %s, %lu%%\r
+56 = Testing %s, %lu%%\r
+57 = \nThe file %s already exists. Overwrite?\n
+58 =              (%s = %s | %s = %s | %s = %s | %s = %s) :
+59 = Always yes\n\n
+60 = Cancel all\n\n
+61 = \nThe file %s is encrypted. Please enter the correct password.\nPassword: 
+62 = \nThe directory of the archive %s is encrypted. Please enter\r\nthe correct password. Password: 
+63 = \n\nPlease insert disk %lu in drive %s or enter a new path.\nENTER = OK, ESC = Cancel\nPath: 
+64 =  -switch -switch -switch  ...\n\n
+65 = Switches\n
+66 = -y: Auto-answer always 'yes' (overwrite, view).\n
+67 = -p: pPath. Set target path for decompression (e.g. pC:\\DOS).\n
+68 = -t: Test archive only.\n
+69 = \n Hit any key...\n
+70 = \n		( %s = %s | %s = %s )
+71 = Always
+72 = Extract %s to %s?\n\n
+73 = \nWarning: %s has more than 8 characters. DOS is going to cut down this name to 8 characters, so it might happen that some files are going to be overwritten.\n
