@@ -124,11 +124,11 @@
 			<value name="ColorKeyValue" type="dword" data="00010101"/>
 			<value name="UseCurrentSizePos" type="hex" data="01"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd Width" type="dword" data="00000078"/>
-			<value name="ConWnd Height" type="dword" data="00000029"/>
+			<value name="ConWnd Width" type="dword" data="000000ad"/>
+			<value name="ConWnd Height" type="dword" data="00000031"/>
 			<value name="Cascaded" type="hex" data="01"/>
-			<value name="ConWnd X" type="long" data="408"/>
-			<value name="ConWnd Y" type="long" data="175"/>
+			<value name="ConWnd X" type="long" data="175"/>
+			<value name="ConWnd Y" type="long" data="184"/>
 			<value name="16bit Height" type="ulong" data="0"/>
 			<value name="AutoSaveSizePos" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
@@ -573,7 +573,7 @@
 				<value name="Count" type="long" data="0"/>
 			</key>
 			<key name="Colors" modified="2019-03-15 14:14:54" build="180626">
-				<key name="Palette1" modified="2019-03-15 14:25:47" build="180626">
+				<key name="Palette1" modified="2019-03-15 15:32:52" build="180626">
 					<value name="Name" type="string" data="Cobalt2"/>
 					<value name="ExtendColors" type="hex" data="00"/>
 					<value name="ExtendColorIdx" type="hex" data="0e"/>
@@ -591,7 +591,7 @@
 					<value name="ColorTable07" type="dword" data="00ffffff"/>
 					<value name="ColorTable08" type="dword" data="00555555"/>
 					<value name="ColorTable09" type="dword" data="00d26014"/>
-					<value name="ColorTable10" type="dword" data="00bbbbbb"/>
+					<value name="ColorTable10" type="dword" data="00cccccc"/>
 					<value name="ColorTable11" type="dword" data="00bbbb00"/>
 					<value name="ColorTable12" type="dword" data="00170ef4"/>
 					<value name="ColorTable13" type="dword" data="005d00ff"/>
@@ -896,7 +896,7 @@
 			</key>
 			<value name="StartCreateDelay" type="ulong" data="100"/>
 			<value name="DefaultTerminalDebugLog" type="hex" data="00"/>
-			<value name="LastMonitor" type="string" data="-2560,-471,0,929"/>
+			<value name="LastMonitor" type="string" data="0,0,3840,2100"/>
 			<value name="Restore2ActiveMon" type="hex" data="00"/>
 			<value name="DownShowExOnTopMessage" type="hex" data="00"/>
 			<value name="EnvironmentSet" type="multi">
