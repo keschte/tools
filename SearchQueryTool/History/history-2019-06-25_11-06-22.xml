@@ -1,0 +1,59 @@
+<SearchPreset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>history-2019-06-25_11-06-22</Name>
+  <Request>
+    <SharePointSiteUrl>https://devsbb.sharepoint.com</SharePointSiteUrl>
+    <QueryText>e506929</QueryText>
+    <Timeout
+      xsi:nil="true" />
+    <HttpMethodType>Get</HttpMethodType>
+    <AcceptType>Json</AcceptType>
+    <AuthenticationType>SPOManagement</AuthenticationType>
+    <Token>Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IkN0ZlFDOExlLThOc0M3b0MyelFrWnBjcmZPYyIsImtpZCI6IkN0ZlFDOExlLThOc0M3b0MyelFrWnBjcmZPYyJ9.eyJhdWQiOiJodHRwczovL2RldnNiYi5zaGFyZXBvaW50LmNvbSIsImlzcyI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0LzJiNjc4ZjlmLWQ5NTktNDljMS1hNDUzLTIwNzIwMmI2MzNiMi8iLCJpYXQiOjE1NjE0NTMyMzksIm5iZiI6MTU2MTQ1MzIzOSwiZXhwIjoxNTYxNDU3MTM5LCJhY3IiOiIxIiwiYWlvIjoiQVZRQXEvOExBQUFBWXVDaS8rS2llYjlDMG5jek9tWTFuTlBLc0Q1cnFzOHhTUGcyZkYweUxCUS9KNmpJTkFOQVVGbzhFTStVL0l4cU1OcUhZTUlieUVFTE1NWW0wQmdKNFdzSE9tb0JhVHgxWm4yQnQ2djh1UU09IiwiYW1yIjpbInB3ZCIsIm1mYSJdLCJhcHBfZGlzcGxheW5hbWUiOiJNaWNyb3NvZnQgU2hhcmVQb2ludCBPbmxpbmUgTWFuYWdlbWVudCBTaGVsbCIsImFwcGlkIjoiOWJjM2FiNDktYjY1ZC00MTBhLTg1YWQtZGU4MTlmZWJmZGRjIiwiYXBwaWRhY3IiOiIwIiwiY29udHJvbHMiOlsibm9fY29va2llIl0sImRldmljZWlkIjoiZGVmZjg4YjMtNDNmZS00YzhhLWIwOWMtYTA2NzE4ZTg1MjRiIiwiZmFtaWx5X25hbWUiOiJLZXN0ZW5ob2x6IiwiZ2l2ZW5fbmFtZSI6IlN0ZWZhbiIsImlwYWRkciI6IjE4NS4xMi4xMjkuMTk2IiwibmFtZSI6IlN0ZWZhbiBLZXN0ZW5ob2x6IChBZG1pbikiLCJvaWQiOiJmNTZjMWY4Yi1lOGMwLTRkZDctYjhlYi0xNWM0NjAyNmI4MWQiLCJwdWlkIjoiMTAwMzIwMDAzNTBCQzA5MCIsInNjcCI6IkFsbFByb2ZpbGVzLk1hbmFnZSBTaXRlcy5GdWxsQ29udHJvbC5BbGwgVXNlci5SZWFkLkFsbCIsInNpZCI6IjE4YzAyYzc5LWZlNmEtNDZhMi05NjAwLWU0OWE0ZDhkNzRhNSIsInN1YiI6InpfM0s5dS1wRjF0WldwYmRlUTVUTndQU3BETExCZXBqSUZhRkh1Q1Jmc00iLCJ0aWQiOiIyYjY3OGY5Zi1kOTU5LTQ5YzEtYTQ1My0yMDcyMDJiNjMzYjIiLCJ1bmlxdWVfbmFtZSI6InN0ZWZhbi5rZXN0ZW5ob2x6QGRldnNiYi5vbm1pY3Jvc29mdC5jb20iLCJ1cG4iOiJzdGVmYW4ua2VzdGVuaG9sekBkZXZzYmIub25taWNyb3NvZnQuY29tIiwidXRpIjoiaFBmVktiQnVFa2VNY0UxRFY3QVdBQSIsInZlciI6IjEuMCIsIndpZHMiOlsiNjkwOTEyNDYtMjBlOC00YTU2LWFhNGQtMDY2MDc1YjJhN2E4IiwiNGE1ZDhmNjUtNDFkYS00ZGU0LTg5NjgtZTAzNWI2NTMzOWNmIiwiYTllYTg5OTYtMTIyZi00Yzc0LTk1MjAtOGVkY2QxOTI4MjZjIiwiOWI4OTVkOTItMmNkMy00NGM3LTlkMDItYTZhYzJkNWVhNWMzIiwiZjI4YTFmNTAtZjZlNy00NTcxLTgxOGItNmExMmYyYWY2YjZjIiwiMTU4YzA0N2EtYzkwNy00NTU2LWI3ZWYtNDQ2NTUxYTZiNWY3IiwiNzkwYzFmYjktN2Y3ZC00Zjg4LTg2YTEtZWYxZjk1YzA1YzFiIiwiY2YxYzM4ZTUtMzYyMS00MDA0LWE3Y2ItODc5NjI0ZGNlZDdjIl19.gMmU1eCkOfQ1WEaKBJHN8mYrrhXr2FOoVbWp_3iVk9SlxWMWKAng2ltu4kiob0ZbaOThuHVQ-KpxkkAdECXuxYSpltYlbzkLt0HMYqXHrY2SFB3YXwz0BIFVKThxEcq0GAyjaECXzG0X4CQRFIi23k7Pxwivjq7I8WIgKolKmrznTNL5dVwkaTDPw668iyCNrtQ702Hei8iXyIr8EB-gX9fbuVpgf4xeE9kUPYU1PKSRGF401rOB3Z3iDVkMqb-L1St3zIM_cXH_lLq84c9OvfPkZ4uAF9vjIEX2grfXi1Y8vHWb04oeCyXpCkBprHYMlaDSWWSMO80H7WYHbPReFQ</Token>
+    <EnableStemming
+      xsi:nil="true" />
+    <EnablePhonetic
+      xsi:nil="true" />
+    <EnableNicknames
+      xsi:nil="true" />
+    <TrimDuplicates
+      xsi:nil="true" />
+    <EnableFql
+      xsi:nil="true" />
+    <EnableQueryRules
+      xsi:nil="true" />
+    <ProcessBestBets
+      xsi:nil="true" />
+    <ByPassResultTypes
+      xsi:nil="true" />
+    <ProcessPersonalFavorites
+      xsi:nil="true" />
+    <GenerateBlockRankLog
+      xsi:nil="true" />
+    <IncludeRankDetail
+      xsi:nil="true" />
+    <StartRow
+      xsi:nil="true" />
+    <RowLimit
+      xsi:nil="true" />
+    <RowsPerPage
+      xsi:nil="true" />
+    <SelectProperties>Path,IodsUserId,IodsFunction,IodsLanguage</SelectProperties>
+    <TrimDuplicatesIncludeId
+      xsi:nil="true" />
+    <ClientType>ContentSearchRegular</ClientType>
+    <EnableMultiGeoSearch
+      xsi:nil="true" />
+    <IncludePersonalOneDriveResults
+      xsi:nil="true" />
+  </Request>
+  <Connection>
+    <SpSiteUrl>https://devsbb.sharepoint.com</SpSiteUrl>
+    <Timeout>30</Timeout>
+    <Accept>json</Accept>
+    <HttpMethod>GET</HttpMethod>
+    <AuthTypeIndex>1</AuthTypeIndex>
+    <AuthMethodIndex>1</AuthMethodIndex>
+    <Username />
+    <EnableExperimentalFeatures>false</EnableExperimentalFeatures>
+  </Connection>
+</SearchPreset>
