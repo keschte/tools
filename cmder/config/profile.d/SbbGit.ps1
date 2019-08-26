@@ -1,4 +1,4 @@
-﻿function Update-SbbGitRepositories {
+﻿function global:Update-SbbGitRepositories {
     Get-ChildItem "c:\devsbb" | ForEach-Object {
         $path = $_.FullName
         Write-Host "Updating $path ..."

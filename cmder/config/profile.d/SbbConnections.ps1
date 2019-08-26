@@ -1,25 +1,25 @@
-﻿function Stop-EthernetAdapters() {
+﻿function global:Stop-EthernetAdapters() {
     Write-Host "Disabling Ethernet adapters"
     get-netadapter "*Ethernet*" | disable-netadapter -confirm:$false
 }
 
-function Start-EthernetAdapters() {
+function global:Start-EthernetAdapters() {
     Write-Host "Enabling Ethernet adapters"
     get-netadapter "*Ethernet*" | enable-netadapter -confirm:$false
 }
 
-function Stop-SbbProxy() {
+function global:Stop-SbbProxy() {
     Enable-SbbProxy $false
 }
 
-function Start-SbbProxy() {
+function global:Start-SbbProxy() {
     Enable-SbbProxy $true
 }
 
-function Stop-SbbProxy() {
+function global:Stop-SbbProxy() {
     Enable-SbbProxy $false
 }
-function Enable-SbbProxy($enable) {
+function global:Enable-SbbProxy($enable) {
     if ($enable) {
         Set-ItemProperty "HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings" -name ProxyEnable 1
         Set-ItemProperty "HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings" -name AutoConfigURL "http://pac.zscloud.net/sbb.ch/proxy.pac"
@@ -37,31 +37,31 @@ function Enable-SbbProxy($enable) {
    }
 }
 
-function Enable-Wifi($name) {
+function global:Enable-Wifi($name) {
     Disable-Wifi
     Write-Host "Connecting to WLAN $name"
     netsh wlan connect $name
 }
 
-function Disable-Wifi() {
+function global:Disable-Wifi() {
     Write-Host "Disconnecting all WLAN"
     netsh wlan disconnect
 }
 
-function Start-FlushDns {
+function global:Start-FlushDns {
     Write-Host "Flushing DNS"
     ipconfig /flushdns
     Start-Sleep 5
     ipconfig /flushdns
 }
 
-function Connect-SbbWifiCorporateSec {
+function global:Connect-SbbWifiCorporateSec {
     Stop-EthernetAdapters
     Start-SbbProxy
     Enable-Wifi "CorporateSec"
     Start-FlushDns
 }
-function Connect-SbbWifiFree {
+function global:Connect-SbbWifiFree {
     Stop-EthernetAdapters
     Stop-SbbProxy
     Enable-Wifi "SBB-FREE"
@@ -69,7 +69,7 @@ function Connect-SbbWifiFree {
     Write-Host "You might have to accept usage terms, starting browser..."
     . "C:\Program Files\internet explorer\iexplore.exe" "http://freewlan.sbb.ch/"
 }
-function Connect-SbbEthernet {
+function global:Connect-SbbEthernet {
     Disable-Wifi
     Start-EthernetAdapters
     Start-SbbProxy
