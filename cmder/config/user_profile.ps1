@@ -11,11 +11,15 @@
 #>
 
 [ScriptBlock]$PrePrompt = {
-
+    $Host.UI.RawUI.ForegroundColor = "White"
+    Microsoft.PowerShell.Utility\Write-Host $pwd.ProviderPath -NoNewLine -ForegroundColor Green
+    checkGit($pwd.ProviderPath)
 }
 
 # Replace the cmder prompt entirely with this.
-# [ScriptBlock]$CmderPrompt = {}
+[ScriptBlock]$CmderPrompt = {
+
+}
 
 [ScriptBlock]$PostPrompt = {
 

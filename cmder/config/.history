@@ -16,3 +16,5 @@ dir
 git ll
 git st
 exit
+get-module posh-git
+exit

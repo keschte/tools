@@ -154,7 +154,7 @@ if ($ENV:CMDER_USER_CONFIG -ne "" -and (test-path "$ENV:CMDER_USER_CONFIG\profil
     }
     popd
 }
-    
+
 # Renaming to "config\user_profile.ps1" to "user_profile.ps1" for consistency.
 if (test-path "$env:CMDER_ROOT\config\user-profile.ps1") {
   rename-item  "$env:CMDER_ROOT\config\user-profile.ps1" user_profile.ps1
