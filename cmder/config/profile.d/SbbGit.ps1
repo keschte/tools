@@ -1,9 +1,16 @@
 ﻿function global:Update-SbbGitRepositories {
-    Get-ChildItem "c:\devsbb" | ForEach-Object {
-        $path = $_.FullName
-        Write-Host "Updating $path ..."
-        Push-Location $path
-        git pull --ff-only
-        Pop-Location
+    $rootPath = Get-SbbDevPath
+    Get-ChildItem $rootPath | ForEach-Object {
+        try {
+            $path = $_.FullName
+            Write-Host "Updating $path ..."
+            Push-Location $path
+            git pull --ff-only
+            Pop-Location
+        } catch {
+            Write-Error "Failed to update: $_"
+        } finally {
+            Pop-Location
+        }
     }
 }
