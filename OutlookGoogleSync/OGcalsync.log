@@ -1,0 +1,176 @@
+﻿2020-01-06 13:21:10,732 INFO  1 OutlookGoogleCalendarSync.GoogleOgcs.ErrorReporting [0] -  Initialising error reporting to OFF
+2020-01-06 13:21:10,760 INFO  1 OutlookGoogleCalendarSync.Program [0] -  Program started: v2.8.0.0
+2020-01-06 13:21:10,761 INFO  1 OutlookGoogleCalendarSync.Program [0] -  Started interactively.
+2020-01-06 13:21:10,761 INFO  1 OutlookGoogleCalendarSync.Program [0] -  Logging to: C:\tools\OutlookGoogleSync\OGcalsync.log
+2020-01-06 13:21:10,762 INFO  1 OutlookGoogleCalendarSync.Program [0] -  Purging log files older than 30 days...
+2020-01-06 13:21:10,762 INFO  1 OutlookGoogleCalendarSync.Program [0] -  Purge complete.
+2020-01-06 13:21:10,763 INFO  1 OutlookGoogleCalendarSync.Settings [0] -  No settings.xml file found in C:\tools\OutlookGoogleSync
+2020-01-06 13:21:10,770 INFO  1 OutlookGoogleCalendarSync.Settings [0] -  Saving settings.
+2020-01-06 13:21:10,820 INFO  1 OutlookGoogleCalendarSync.Settings [0] -  New blank template created.
+2020-01-06 13:21:10,840 DEBUG  1 OutlookGoogleCalendarSync.XMLManager [0] -  Setting 'Portable' updated to 'True'
+2020-01-06 13:21:10,840 INFO  1 OutlookGoogleCalendarSync.Settings [0] -  Running OGCS from C:\tools\OutlookGoogleSync\OutlookGoogleCalendarSync.exe
+2020-01-06 13:21:10,841 INFO  1 OutlookGoogleCalendarSync.Program [0] -  Storing user files in directory: C:\tools\OutlookGoogleSync
+2020-01-06 13:21:11,895 DEBUG  1 OutlookGoogleCalendarSync.GoogleOgcs.Authenticator [0] -  Getting MD5 hash for 'LAPTOP-E4S3V8IH;Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz;2E250E57'
+2020-01-06 13:21:11,895 DEBUG  1 OutlookGoogleCalendarSync.XMLManager [0] -  Retrieved setting 'CloudLogging' with value ''
+2020-01-06 13:21:11,896 DEBUG  1 OutlookGoogleCalendarSync.XMLManager [0] -  Retrieved setting 'Portable' with value 'true'
+2020-01-06 13:21:11,896 DEBUG  1 OutlookGoogleCalendarSync.XMLManager [0] -  Retrieved setting 'LoggingLevel' with value 'DEBUG'
+2020-01-06 13:21:11,896 INFO  1 OutlookGoogleCalendarSync.Settings [0] -  Logging level configured to 'DEBUG'
+2020-01-06 13:21:11,897 DEBUG  1 OutlookGoogleCalendarSync.Updater [0] -  Setting up Squirrel handlers.
+2020-01-06 13:21:12,093 DEBUG  17 OutlookGoogleCalendarSync.XMLManager [0] -  Retrieved setting 'CompletedSyncs' with value '0'
+2020-01-06 13:21:12,093 DEBUG  17 OutlookGoogleCalendarSync.XMLManager [0] -  Retrieved setting 'Donor' with value 'false'
+2020-01-06 13:21:12,094 DEBUG  17 OutlookGoogleCalendarSync.XMLManager [0] -  Retrieved setting 'Subscribed' with value '2000-01-01T00:00:00'
+2020-01-06 13:21:12,094 DEBUG  17 OutlookGoogleCalendarSync.XMLManager [0] -  Retrieved setting 'HideSplashScreen' with value 'false'
+2020-01-06 13:21:12,094 DEBUG  17 OutlookGoogleCalendarSync.Forms.Splash [0] -  Showing splash screen.
+2020-01-06 13:21:12,109 DEBUG  1 OutlookGoogleCalendarSync.Program [0] -  Loading settings from file.
+2020-01-06 13:21:12,168 INFO  1 OutlookGoogleCalendarSync.Program [0] -  New version detected - upgraded from Unknown to 2.8.0.0
+2020-01-06 13:21:12,169 DEBUG  1 OutlookGoogleCalendarSync.Program [0] -  CheckShortcut: directory=Startup; subdir=
+2020-01-06 13:21:12,482 DEBUG  1 OutlookGoogleCalendarSync.Updater [0] -  Automatic update check requested.
+2020-01-06 13:21:12,487 INFO  1 OutlookGoogleCalendarSync.SettingsProxy [0] -  Using default proxy (app.config / IE).
+2020-01-06 13:21:12,488 INFO  1 OutlookGoogleCalendarSync.SettingsProxy [0] -  Setting system-wide proxy.
+2020-01-06 13:21:12,494 DEBUG  1 OutlookGoogleCalendarSync.SettingsProxy [0] -  Testing the system proxy.
+2020-01-06 13:21:12,495 DEBUG  1 OutlookGoogleCalendarSync.SettingsProxy [0] -  Confirmation of configured proxy: http://www.google.com
+2020-01-06 13:21:12,499 DEBUG  9 OutlookGoogleCalendarSync.Updater [0] -  Checking for ZIP update...
+2020-01-06 13:21:12,678 INFO  1 OutlookGoogleCalendarSync.NotificationTray [0] -  Using NodaTime TZDB: 2018e (mapping: 13923)
+2020-01-06 13:21:12,683 DEBUG  20 OutlookGoogleCalendarSync.NotificationTray [0] -  Checking for new timezone database...
+2020-01-06 13:21:12,691 DEBUG  1 OutlookGoogleCalendarSync.Forms.Main [0] -  Initialiasing MainForm.
+2020-01-06 13:21:12,952 DEBUG  9 OutlookGoogleCalendarSync.Updater [0] -  Finding Beta release...
+2020-01-06 13:21:12,953 INFO  9 OutlookGoogleCalendarSync.Updater [0] -  Already on latest ZIP release.
+2020-01-06 13:21:12,988 DEBUG  20 OutlookGoogleCalendarSync.NotificationTray [0] -  There is a new version 2019c
+2020-01-06 13:21:13,244 DEBUG  20 OutlookGoogleCalendarSync.NotificationTray [0] -  New TZDB version downloaded - disposing of reference to old db data.
+2020-01-06 13:21:13,451 INFO  1 OutlookGoogleCalendarSync.OutlookOgcs.Calendar [0] -  Attaching to the already running Outlook process.
+2020-01-06 13:21:13,546 INFO  1 OutlookGoogleCalendarSync.OutlookOgcs.Factory [0] -  Outlook Version: 16.0.0.12228
+2020-01-06 13:21:13,549 DEBUG  1 OutlookGoogleCalendarSync.Telemetry [0] -  Retrieving URL: https://www.google-analytics.com/collect?v=1&t=event&tid=UA-19426033-4&cid=1&ec=outlook&ea=version&el=2016
+2020-01-06 13:21:13,556 DEBUG  1 OutlookGoogleCalendarSync.Telemetry [0] -  Retrieving URL: https://www.google-analytics.com/collect?v=1&t=event&tid=UA-19426033-4&cid=1&ec=ogcs&ea=version&el=2.8.0.0
+2020-01-06 13:21:13,583 DEBUG  1 OutlookGoogleCalendarSync.Forms.Main [0] -  Find Folders
+2020-01-06 13:21:13,607 INFO  1 OutlookGoogleCalendarSync.OutlookOgcs.Calendar [0] -  Attaching to the already running Outlook process.
+2020-01-06 13:21:13,615 DEBUG  1 OutlookGoogleCalendarSync.OutlookOgcs.OutlookNew [0] -  Setting up Outlook connection.
+2020-01-06 13:21:13,646 INFO  1 OutlookGoogleCalendarSync.OutlookOgcs.OutlookNew [0] -  Exchange server version: 15.20.2602.10
+2020-01-06 13:21:13,646 INFO  1 OutlookGoogleCalendarSync.OutlookOgcs.OutlookNew [0] -  Exchange connection mode: olCachedConnectedFull
+2020-01-06 13:21:13,705 DEBUG  1 OutlookGoogleCalendarSync.OutlookOgcs.OutlookNew [0] -  Getting active window inspector
+2020-01-06 13:21:13,726 DEBUG  1 OutlookGoogleCalendarSync.OutlookOgcs.OutlookNew [0] -  Done.
+2020-01-06 13:21:13,813 DEBUG  1 OutlookGoogleCalendarSync.OutlookOgcs.OutlookNew [0] -  Get the folders configured in Outlook
+2020-01-06 13:21:13,835 DEBUG  1 OutlookGoogleCalendarSync.OutlookOgcs.OutlookNew [0] -  Finding default Mailbox calendar folders
+2020-01-06 13:21:16,305 DEBUG  1 OutlookGoogleCalendarSync.OutlookOgcs.OutlookNew [0] -  Default Calendar folder: Calendar
+2020-01-06 13:21:16,314 DEBUG  1 OutlookGoogleCalendarSync.OutlookOgcs.OutlookNew [0] -  Folder type: olPrimaryExchangeMailbox
+2020-01-06 13:21:16,384 INFO  1 OutlookGoogleCalendarSync.OutlookOgcs.ExplorerWatcher [0] -  Setting up Explorer event watchers.
+2020-01-06 13:21:16,388 DEBUG  1 OutlookGoogleCalendarSync.OutlookOgcs.ExplorerWatcher [0] -  Watcher needed for 1 existing explorers.
+2020-01-06 13:21:16,414 DEBUG  1 OutlookGoogleCalendarSync.OutlookOgcs.ExplorerWatcher [0] -  Adding listener for Explorer 'Calendar - stefan.kestenholz@sbb.ch - Outlook'
+2020-01-06 13:21:16,461 DEBUG  1 OutlookGoogleCalendarSync.Forms.Main [0] -  List Calendar folders
+2020-01-06 13:21:16,591 INFO  1 OutlookGoogleCalendarSync.Settings [0] -  Logging level configured to 'Debug'
+2020-01-06 13:21:16,599 INFO  1 OutlookGoogleCalendarSync.NotificationTray [0] -  Using NodaTime TZDB: 2019c (mapping: 14742)
+2020-01-06 13:21:16,609 INFO  1 OutlookGoogleCalendarSync.Settings [0] -  C:\tools\OutlookGoogleSync\settings.xml
+2020-01-06 13:21:16,609 INFO  1 OutlookGoogleCalendarSync.Settings [0] -  OUTLOOK SETTINGS:-
+2020-01-06 13:21:16,609 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Service: DefaultMailbox
+2020-01-06 13:21:16,610 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Mailbox/FolderStore Name: 
+2020-01-06 13:21:16,610 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Calendar: Default Calendar
+2020-01-06 13:21:16,610 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Category Filter: Exclude
+2020-01-06 13:21:16,610 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Categories: 
+2020-01-06 13:21:16,610 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Only Responded Invites: False
+2020-01-06 13:21:16,610 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Filter String: g
+2020-01-06 13:21:16,610 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    GAL Blocked: False
+2020-01-06 13:21:16,610 INFO  1 OutlookGoogleCalendarSync.Settings [0] -  GOOGLE SETTINGS:-
+2020-01-06 13:21:16,611 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Calendar: 
+2020-01-06 13:21:16,611 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Personal API Keys: False
+2020-01-06 13:21:16,611 INFO  1 OutlookGoogleCalendarSync.Settings [0] -      Client Identifier: 
+2020-01-06 13:21:16,611 INFO  1 OutlookGoogleCalendarSync.Settings [0] -      Client Secret: 
+2020-01-06 13:21:16,611 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    API attendee limit in effect: False
+2020-01-06 13:21:16,611 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    API attendee limit last reached: 01/01/2000 00:00:00
+2020-01-06 13:21:16,611 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Assigned API key: 
+2020-01-06 13:21:16,612 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Cloak Email: True
+2020-01-06 13:21:16,612 INFO  1 OutlookGoogleCalendarSync.Settings [0] -  SYNC OPTIONS:-
+2020-01-06 13:21:16,612 INFO  1 OutlookGoogleCalendarSync.Settings [0] -   How
+2020-01-06 13:21:16,612 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    SyncDirection: Outlook → Google
+2020-01-06 13:21:16,612 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    MergeItems: True
+2020-01-06 13:21:16,612 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    DisableDelete: True
+2020-01-06 13:21:16,612 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    ConfirmOnDelete: True
+2020-01-06 13:21:16,612 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    SetEntriesPrivate: False
+2020-01-06 13:21:16,612 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    SetEntriesAvailable: False
+2020-01-06 13:21:16,612 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    SetEntriesColour: False
+2020-01-06 13:21:16,613 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Obfuscate Words: False
+2020-01-06 13:21:16,613 INFO  1 OutlookGoogleCalendarSync.Settings [0] -   When
+2020-01-06 13:21:16,613 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    DaysInThePast: 1
+2020-01-06 13:21:16,613 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    DaysInTheFuture:60
+2020-01-06 13:21:16,613 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    SyncInterval: 0
+2020-01-06 13:21:16,613 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    SyncIntervalUnit: Hours
+2020-01-06 13:21:16,613 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Push Changes: False
+2020-01-06 13:21:16,613 INFO  1 OutlookGoogleCalendarSync.Settings [0] -   What
+2020-01-06 13:21:16,613 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    AddLocation: True
+2020-01-06 13:21:16,613 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    AddDescription: True; OnlyToGoogle: True
+2020-01-06 13:21:16,614 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    AddAttendees: False
+2020-01-06 13:21:16,614 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    AddColours: False
+2020-01-06 13:21:16,614 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    AddReminders: False
+2020-01-06 13:21:16,614 INFO  1 OutlookGoogleCalendarSync.Settings [0] -      UseGoogleDefaultReminder: False
+2020-01-06 13:21:16,614 INFO  1 OutlookGoogleCalendarSync.Settings [0] -      UseOutlookDefaultReminder: False
+2020-01-06 13:21:16,614 INFO  1 OutlookGoogleCalendarSync.Settings [0] -      ReminderDND: False (22:00-06:00)
+2020-01-06 13:21:16,614 INFO  1 OutlookGoogleCalendarSync.Settings [0] -  PROXY:-
+2020-01-06 13:21:16,614 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Type: IE
+2020-01-06 13:21:16,615 INFO  1 OutlookGoogleCalendarSync.Settings [0] -  APPLICATION BEHAVIOUR:-
+2020-01-06 13:21:16,615 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    ShowBubbleTooltipWhenSyncing: True
+2020-01-06 13:21:16,615 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    StartOnStartup: False; DelayedStartup: 0
+2020-01-06 13:21:16,615 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    HideSplashScreen: N/A
+2020-01-06 13:21:16,615 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    SuppressSocialPopup: N/A
+2020-01-06 13:21:16,615 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    StartInTray: False
+2020-01-06 13:21:16,615 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    MinimiseToTray: False
+2020-01-06 13:21:16,615 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    MinimiseNotClose: False
+2020-01-06 13:21:16,616 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    ShowBubbleWhenMinimising: True
+2020-01-06 13:21:16,616 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Portable: True
+2020-01-06 13:21:16,616 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    CreateCSVFiles: False
+2020-01-06 13:21:16,616 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    VerboseOutput: True
+2020-01-06 13:21:16,616 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    MuteClickSounds: False
+2020-01-06 13:21:16,616 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Logging Level: DEBUG
+2020-01-06 13:21:16,616 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Error Reporting: 
+2020-01-06 13:21:16,616 INFO  1 OutlookGoogleCalendarSync.Settings [0] -  ABOUT:-
+2020-01-06 13:21:16,617 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Alpha Releases: False
+2020-01-06 13:21:16,617 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Skip Version: 
+2020-01-06 13:21:16,617 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Subscribed: 01-Jan-2000
+2020-01-06 13:21:16,617 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Timezone Database: 2019c
+2020-01-06 13:21:16,617 INFO  1 OutlookGoogleCalendarSync.Settings [0] -  ENVIRONMENT:-
+2020-01-06 13:21:16,617 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Current Locale: en-CH
+2020-01-06 13:21:16,618 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Short Date Format: dd/MM/yyyy
+2020-01-06 13:21:16,618 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Short Time Format: HH:mm
+2020-01-06 13:21:16,618 INFO  1 OutlookGoogleCalendarSync.Settings [0] -    Completed Syncs: 0
+2020-01-06 13:21:16,719 DEBUG  1 OutlookGoogleCalendarSync.Forms.Main [0] -  Create the timer for the auto synchronisation
+2020-01-06 13:21:16,727 INFO  1 OutlookGoogleCalendarSync.Sync.SyncTimer [0] -  Schedule disabled.
+2020-01-06 13:21:20,197 DEBUG  17 OutlookGoogleCalendarSync.Forms.Splash [0] -  Disposed of splash screen.
+2020-01-06 13:21:42,531 DEBUG  1 OutlookGoogleCalendarSync.Forms.Main [0] -  Retrieving Google calendar list.
+2020-01-06 13:21:42,617 DEBUG  1 OutlookGoogleCalendarSync.Console [0] -  Authenticating with Google
+2020-01-06 13:21:42,657 DEBUG  5 OutlookGoogleCalendarSync.Console [0] -  Preparing to authenticate with Google.
+2020-01-06 13:21:42,759 DEBUG  5 OutlookGoogleCalendarSync.GoogleOgcs.ApiKeyring [0] -  Getting keyring.
+2020-01-06 13:21:43,103 DEBUG  5 OutlookGoogleCalendarSync.GoogleOgcs.ApiKey [0] -  OGCS Default = ACTIVE
+2020-01-06 13:21:43,103 DEBUG  5 OutlookGoogleCalendarSync.GoogleOgcs.ApiKey [0] -  OGCS PW 001 = FULL
+2020-01-06 13:21:43,103 DEBUG  5 OutlookGoogleCalendarSync.GoogleOgcs.ApiKey [0] -  OGCS KW 001 = DISABLED
+2020-01-06 13:21:43,104 DEBUG  5 OutlookGoogleCalendarSync.GoogleOgcs.ApiKeyring [0] -  There are 3 keys.
+2020-01-06 13:21:43,104 DEBUG  5 OutlookGoogleCalendarSync.GoogleOgcs.ApiKeyring [0] -  1 keys are active.
+2020-01-06 13:21:43,107 DEBUG  5 OutlookGoogleCalendarSync.GoogleOgcs.ApiKeyring [0] -  Picking a Standard key.
+2020-01-06 13:21:43,119 DEBUG  5 OutlookGoogleCalendarSync.XMLManager [0] -  Setting 'AssignedClientIdentifier' updated to '653617509806-2nq341ol8ejgqhh2ku4j45m7q2bgdimv.apps.googleusercontent.com'
+2020-01-06 13:21:43,130 DEBUG  5 OutlookGoogleCalendarSync.XMLManager [0] -  Setting 'AssignedClientSecret' updated to 'tAi-gZLWtasS58i8CcCwVwsq'
+2020-01-06 13:21:43,137 DEBUG  19 OutlookGoogleCalendarSync.GoogleOgcs.Authenticator [0] -  Authenticating with Google calendar service...
+2020-01-06 13:21:43,138 DEBUG  19 OutlookGoogleCalendarSync.GoogleOgcs.Authenticator [0] -  Google credential file location: C:\tools\OutlookGoogleSync\Google.Apis.Auth.OAuth2.Responses.TokenResponse-user
+2020-01-06 13:21:43,139 INFO  19 OutlookGoogleCalendarSync.GoogleOgcs.Authenticator [0] -  No Google credentials file available - need user authorisation for OGCS to manage their calendar.
+2020-01-06 13:21:50,883 DEBUG  24 OutlookGoogleCalendarSync.GoogleOgcs.Authenticator [0] -  User has provided authorisation and credential file saved.
+2020-01-06 13:21:50,891 INFO  24 OutlookGoogleCalendarSync.GoogleOgcs.Authenticator [0] -  Refresh and Access token successfully retrieved.
+2020-01-06 13:21:50,891 DEBUG  24 OutlookGoogleCalendarSync.GoogleOgcs.Authenticator [0] -  Access token expires 06/01/2020 14:21:50
+2020-01-06 13:21:50,900 DEBUG  24 OutlookGoogleCalendarSync.GoogleOgcs.Authenticator [0] -  Retrieving email address associated with Google account.
+2020-01-06 13:21:51,053 DEBUG  24 OutlookGoogleCalendarSync.GoogleOgcs.Authenticator [0] -  Updating Google account username: ke****e@gmail.com
+2020-01-06 13:21:51,054 DEBUG  24 OutlookGoogleCalendarSync.Console [0] -  Handshake successful.
+2020-01-06 13:21:51,280 DEBUG  1 OutlookGoogleCalendarSync.GoogleOgcs.Authenticator [0] -  Retrieving all subscribers from past year.
+2020-01-06 13:21:51,285 DEBUG  1 OutlookGoogleCalendarSync.GoogleOgcs.Authenticator [0] -  Getting MD5 hash for 'ke****e@gmail.com'
+2020-01-06 13:21:51,422 DEBUG  1 OutlookGoogleCalendarSync.GoogleOgcs.Authenticator [0] -  Page 1 received.
+2020-01-06 13:21:51,423 DEBUG  1 OutlookGoogleCalendarSync.GoogleOgcs.Authenticator [0] -  Searching for subscription for: ke****e@gmail.com
+2020-01-06 13:21:51,425 DEBUG  1 OutlookGoogleCalendarSync.XMLManager [0] -  Setting 'Subscribed' updated to '01/01/2000 00:00:00'
+2020-01-06 13:21:51,428 DEBUG  1 OutlookGoogleCalendarSync.GoogleOgcs.Authenticator [0] -  Retrieving all donors.
+2020-01-06 13:21:51,485 DEBUG  1 OutlookGoogleCalendarSync.GoogleOgcs.Authenticator [0] -  Page 1 received.
+2020-01-06 13:21:51,485 DEBUG  1 OutlookGoogleCalendarSync.GoogleOgcs.Authenticator [0] -  Searching for donation from: ke****e@gmail.com
+2020-01-06 13:21:51,489 DEBUG  1 OutlookGoogleCalendarSync.XMLManager [0] -  Setting 'Donor' updated to 'False'
+2020-01-06 13:22:27,886 DEBUG  1 OutlookGoogleCalendarSync.Program [0] -  CheckShortcut: directory=Startup; subdir=
+2020-01-06 13:22:27,889 DEBUG  1 OutlookGoogleCalendarSync.Program [0] -  Startup registry key created.
+2020-01-06 13:22:33,094 DEBUG  1 OutlookGoogleCalendarSync.Program [0] -  CheckShortcut: directory=Startup; subdir=
+2020-01-06 13:22:33,096 DEBUG  1 OutlookGoogleCalendarSync.Program [0] -  Startup registry key being removed.
+2020-01-06 13:22:45,581 INFO  1 OutlookGoogleCalendarSync.Settings [0] -  Logging level configured to 'Warn'
+2020-01-06 13:23:05,112 WARN  8 OutlookGoogleCalendarSync.Console [0] -  1 Google items would have been deleted, but you have deletions disabled.
+2020-01-06 13:23:21,500 WARN  8 OutlookGoogleCalendarSync.OutlookOgcs.OutlookNew [0] -  Could not find timezone ID based on given description. Attempting some fuzzy logic...
+2020-01-06 13:23:21,503 WARN  8 OutlookGoogleCalendarSync.OutlookOgcs.OutlookNew [0] -  Could not find timezone with GMT offset of 1 for country (UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien. Picking the first offset match regardless of country.
+2020-01-06 13:23:44,554 WARN  19 OutlookGoogleCalendarSync.OutlookOgcs.OutlookNew [0] -  Could not find timezone ID based on given description. Attempting some fuzzy logic...
+2020-01-06 13:23:44,554 WARN  19 OutlookGoogleCalendarSync.OutlookOgcs.OutlookNew [0] -  Could not find timezone with GMT offset of 1 for country (UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien. Picking the first offset match regardless of country.
+2020-01-06 14:20:24,187 WARN  8 OutlookGoogleCalendarSync.OutlookOgcs.OutlookNew [0] -  Could not find timezone ID based on given description. Attempting some fuzzy logic...
+2020-01-06 14:20:24,187 WARN  8 OutlookGoogleCalendarSync.OutlookOgcs.OutlookNew [0] -  Could not find timezone with GMT offset of 1 for country (UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien. Picking the first offset match regardless of country.
