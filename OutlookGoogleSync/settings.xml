@@ -15,7 +15,7 @@
   <CategoriesRestrictBy>Exclude</CategoriesRestrictBy>
   <CloakEmail>true</CloakEmail>
   <CloudLogging>false</CloudLogging>
-  <CompletedSyncs>3</CompletedSyncs>
+  <CompletedSyncs>4</CompletedSyncs>
   <ConfirmOnDelete>true</ConfirmOnDelete>
   <CreateCSVFiles>false</CreateCSVFiles>
   <CreatedItemsOnly>false</CreatedItemsOnly>
@@ -26,7 +26,7 @@
   <ExtirpateOgcsMetadata>false</ExtirpateOgcsMetadata>
   <GaccountEmail>keschte@gmail.com</GaccountEmail>
   <HideSplashScreen>false</HideSplashScreen>
-  <LastSyncDate>2020-01-06T14:20:19.5508376+01:00</LastSyncDate>
+  <LastSyncDate>2020-01-13T18:01:01.6051491+01:00</LastSyncDate>
   <LoggingLevel>WARN</LoggingLevel>
   <MailboxName />
   <MergeItems>true</MergeItems>

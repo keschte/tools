@@ -3,3 +3,5 @@
 /SearchQueryTool/History
 /SimpleResxEditor/settings.xml
 /OutlookGoogleSync/ErrorReporting.json
+/OutlookGoogleSync/OGcalsync.log*
+/OutlookGoogleSync/*.TokenResponse-user
