@@ -1,100 +1,99 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
 <Settings xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/OutlookGoogleCalendarSync">
-  <APIlimit_inEffect>false</APIlimit_inEffect>
-  <APIlimit_lastHit>2000-01-01T00:00:00</APIlimit_lastHit>
-  <AddAttendees>false</AddAttendees>
-  <AddColours>false</AddColours>
-  <AddDescription>true</AddDescription>
-  <AddDescription_OnlyToGoogle>true</AddDescription_OnlyToGoogle>
-  <AddLocation>true</AddLocation>
-  <AddReminders>false</AddReminders>
-  <AlphaReleases>false</AlphaReleases>
-  <AssignedClientIdentifier>653617509806-2nq341ol8ejgqhh2ku4j45m7q2bgdimv.apps.googleusercontent.com</AssignedClientIdentifier>
-  <AssignedClientSecret>tAi-gZLWtasS58i8CcCwVwsq</AssignedClientSecret>
-  <Categories xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-  <CategoriesRestrictBy>Exclude</CategoriesRestrictBy>
-  <CloakEmail>true</CloakEmail>
-  <CloudLogging>false</CloudLogging>
+    <APIlimit_inEffect>false</APIlimit_inEffect>
+    <APIlimit_lastHit>2000-01-01T00:00:00</APIlimit_lastHit>
+    <AddAttendees>false</AddAttendees>
+    <AddColours>false</AddColours>
+    <AddDescription>true</AddDescription>
+    <AddDescription_OnlyToGoogle>true</AddDescription_OnlyToGoogle>
+    <AddLocation>true</AddLocation>
+    <AddReminders>false</AddReminders>
+    <AlphaReleases>false</AlphaReleases>
+    <AssignedClientIdentifier>653617509806-2nq341ol8ejgqhh2ku4j45m7q2bgdimv.apps.googleusercontent.com</AssignedClientIdentifier>
+    <AssignedClientSecret>tAi-gZLWtasS58i8CcCwVwsq</AssignedClientSecret>
+    <Categories xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <CategoriesRestrictBy>Exclude</CategoriesRestrictBy>
+    <CloakEmail>true</CloakEmail>
+    <CloudLogging>false</CloudLogging>
   <CompletedSyncs>4</CompletedSyncs>
-  <ConfirmOnDelete>true</ConfirmOnDelete>
-  <CreateCSVFiles>false</CreateCSVFiles>
-  <CreatedItemsOnly>false</CreatedItemsOnly>
-  <DaysInTheFuture>60</DaysInTheFuture>
-  <DaysInThePast>1</DaysInThePast>
-  <DisableDelete>false</DisableDelete>
-  <Donor>false</Donor>
-  <ExtirpateOgcsMetadata>false</ExtirpateOgcsMetadata>
-  <GaccountEmail>keschte@gmail.com</GaccountEmail>
-  <HideSplashScreen>false</HideSplashScreen>
+    <ConfirmOnDelete>true</ConfirmOnDelete>
+    <CreateCSVFiles>false</CreateCSVFiles>
+    <CreatedItemsOnly>false</CreatedItemsOnly>
+    <DaysInTheFuture>365</DaysInTheFuture>
+    <DaysInThePast>1</DaysInThePast>
+    <DisableDelete>false</DisableDelete>
+    <Donor>false</Donor>
+    <ExtirpateOgcsMetadata>false</ExtirpateOgcsMetadata>
+    <GaccountEmail>keschte@gmail.com</GaccountEmail>
+    <HideSplashScreen>false</HideSplashScreen>
   <LastSyncDate>2020-01-13T18:01:01.6051491+01:00</LastSyncDate>
-  <LoggingLevel>WARN</LoggingLevel>
-  <MailboxName />
-  <MergeItems>true</MergeItems>
-  <MinimiseNotClose>true</MinimiseNotClose>
-  <MinimiseToTray>true</MinimiseToTray>
-  <MuteClickSounds>false</MuteClickSounds>
-  <Obfuscation>
-    <Direction>
-      <Id>1</Id>
-      <Name>Outlook → Google</Name>
-    </Direction>
-    <Enabled>false</Enabled>
-    <FindReplace />
-  </Obfuscation>
-  <OnlyRespondedInvites>false</OnlyRespondedInvites>
-  <OutlookDateFormat>g</OutlookDateFormat>
-  <OutlookGalBlocked>false</OutlookGalBlocked>
-  <OutlookPush>false</OutlookPush>
-  <OutlookService>DefaultMailbox</OutlookService>
-  <PersonalClientIdentifier />
-  <PersonalClientSecret />
-  <Portable>true</Portable>
-  <Proxy>
-    <AuthenticationRequired>false</AuthenticationRequired>
-    <BrowserUserAgent>Mozilla / 5.0(Windows NT 6.1; WOW64; Trident / 7.0; rv: 11.0) like Gecko</BrowserUserAgent>
-    <Password i:nil="true" />
-    <Port>8888</Port>
-    <ServerName i:nil="true" />
-    <Type>IE</Type>
-    <UserName i:nil="true" />
-  </Proxy>
-  <ReminderDND>false</ReminderDND>
-  <ReminderDNDend>2020-01-07T06:00:00+01:00</ReminderDNDend>
-  <ReminderDNDstart>2020-01-06T22:00:00+01:00</ReminderDNDstart>
-  <SetEntriesAvailable>false</SetEntriesAvailable>
-  <SetEntriesColour>false</SetEntriesColour>
-  <SetEntriesColourName>None</SetEntriesColourName>
-  <SetEntriesColourValue>olCategoryColorNone</SetEntriesColourValue>
-  <SetEntriesPrivate>false</SetEntriesPrivate>
-  <SharedCalendar />
-  <ShowBubbleTooltipWhenSyncing>true</ShowBubbleTooltipWhenSyncing>
+    <LoggingLevel>WARN</LoggingLevel>
+    <MailboxName />
+    <MergeItems>true</MergeItems>
+    <MinimiseNotClose>true</MinimiseNotClose>
+    <MinimiseToTray>true</MinimiseToTray>
+    <MuteClickSounds>false</MuteClickSounds>
+    <Obfuscation>
+        <Direction>
+            <Id>1</Id>
+            <Name>Outlook → Google</Name>
+        </Direction>
+        <Enabled>false</Enabled>
+        <FindReplace />
+    </Obfuscation>
+    <OnlyRespondedInvites>false</OnlyRespondedInvites>
+    <OutlookDateFormat>g</OutlookDateFormat>
+    <OutlookGalBlocked>false</OutlookGalBlocked>
+    <OutlookPush>false</OutlookPush>
+    <OutlookService>DefaultMailbox</OutlookService>
+    <PersonalClientIdentifier />
+    <PersonalClientSecret />
+    <Portable>true</Portable>
+    <Proxy>
+        <AuthenticationRequired>false</AuthenticationRequired>
+        <BrowserUserAgent>Mozilla / 5.0(Windows NT 6.1; WOW64; Trident / 7.0; rv: 11.0) like Gecko</BrowserUserAgent>
+        <Password i:nil="true" />
+        <Port>8888</Port>
+        <ServerName i:nil="true" />
+        <Type>IE</Type>
+        <UserName i:nil="true" />
+    </Proxy>
+    <ReminderDND>false</ReminderDND>
+    <ReminderDNDend>2020-01-07T06:00:00+01:00</ReminderDNDend>
+    <ReminderDNDstart>2020-01-06T22:00:00+01:00</ReminderDNDstart>
+    <SetEntriesAvailable>false</SetEntriesAvailable>
+    <SetEntriesColour>false</SetEntriesColour>
+    <SetEntriesColourName>None</SetEntriesColourName>
+    <SetEntriesColourValue>olCategoryColorNone</SetEntriesColourValue>
+    <SetEntriesPrivate>false</SetEntriesPrivate>
+    <SharedCalendar />
+    <ShowBubbleTooltipWhenSyncing>true</ShowBubbleTooltipWhenSyncing>
   <ShowBubbleWhenMinimising>true</ShowBubbleWhenMinimising>
-  <SkipVersion i:nil="true" />
-  <StartInTray>true</StartInTray>
-  <StartOnStartup>false</StartOnStartup>
-  <StartupDelay>30</StartupDelay>
-  <Subscribed>2000-01-01T00:00:00</Subscribed>
-  <SuppressSocialPopup>false</SuppressSocialPopup>
-  <SyncDirection>
-    <Id>1</Id>
-    <Name>Outlook → Google</Name>
-  </SyncDirection>
-  <SyncInterval>0</SyncInterval>
-  <SyncIntervalUnit>Hours</SyncIntervalUnit>
-  <TargetCalendar>
-    <Id>1</Id>
-    <Name>Outlook → Google</Name>
-  </TargetCalendar>
-  <UseGoogleCalendar>
-    <Id>kk5qu23bq5h7r09il9pjr0anb8@group.calendar.google.com</Id>
-    <Name>SBB</Name>
-  </UseGoogleCalendar>
-  <UseGoogleDefaultReminder>false</UseGoogleDefaultReminder>
-  <UseOutlookCalendar>
-    <Id>000000009B1BAB04D3B2C548A35FAC9493BC0D320100FCCEEA62DA74404BAFA8955818B2788800000000010D0000</Id>
-    <Name>Calendar</Name>
-  </UseOutlookCalendar>
-  <UseOutlookDefaultReminder>false</UseOutlookDefaultReminder>
-  <VerboseOutput>true</VerboseOutput>
-  <Version>2.8.0.0</Version>
+    <SkipVersion i:nil="true" />
+    <StartInTray>true</StartInTray>
+    <StartOnStartup>false</StartOnStartup>
+    <StartupDelay>30</StartupDelay>
+    <Subscribed>2000-01-01T00:00:00</Subscribed>
+    <SuppressSocialPopup>false</SuppressSocialPopup>
+    <SyncDirection>
+        <Id>1</Id>
+        <Name>Outlook → Google</Name>
+    </SyncDirection>
+    <SyncInterval>0</SyncInterval>
+    <SyncIntervalUnit>Hours</SyncIntervalUnit>
+    <TargetCalendar>
+        <Id>1</Id>
+        <Name>Outlook → Google</Name>
+    </TargetCalendar>
+    <UseGoogleCalendar>
+        <Id>kk5qu23bq5h7r09il9pjr0anb8@group.calendar.google.com</Id>
+        <Name>SBB</Name>
+    </UseGoogleCalendar>
+    <UseGoogleDefaultReminder>false</UseGoogleDefaultReminder>
+    <UseOutlookCalendar>
+        <Id>000000009B1BAB04D3B2C548A35FAC9493BC0D320100FCCEEA62DA74404BAFA8955818B2788800000000010D0000</Id>
+        <Name>Calendar</Name>
+    </UseOutlookCalendar>
+    <UseOutlookDefaultReminder>false</UseOutlookDefaultReminder>
+    <VerboseOutput>true</VerboseOutput>
+    <Version>2.8.0.0</Version>
 </Settings>
