@@ -6,3 +6,5 @@
 /OutlookGoogleSync/OGcalsync.log*
 /OutlookGoogleSync/*.TokenResponse-user
 /OutlookGoogleSync/*.log
+/OutlookGoogleSync/settings.xml
+/OutlookGoogleSync/*.nzd
