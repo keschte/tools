@@ -1,8 +1,9 @@
 # Git Large File Storage
 
-![CI status][1]
+[![CI status][ci_badge]][ci_url]
 
-[1]: https://github.com/git-lfs/git-lfs/workflows/CI/badge.svg
+[ci_badge]: https://github.com/git-lfs/git-lfs/workflows/CI/badge.svg
+[ci_url]: https://github.com/git-lfs/git-lfs/actions?query=workflow%3ACI
 
 [Git LFS](https://git-lfs.github.com) is a command line extension and
 [specification](docs/spec.md) for managing large files with Git.
@@ -56,6 +57,23 @@ running:
 $ git lfs install
 ```
 
+#### Verifying releases
+
+Releases are signed with the OpenPGP key of one of the core team members.  To
+get these keys, you can run the following command, which will print them to
+standard output:
+
+```ShellSession
+$ curl -L https://api.github.com/repos/git-lfs/git-lfs/tarball/core-gpg-keys | tar -Ozxf -
+```
+
+Once you have the keys, you can download the `sha256sums.asc` file and verify
+the file you want like so:
+
+```ShellSession
+$ gpg -d sha256sums.asc | grep git-lfs-linux-amd64-v2.10.0.tar.gz | shasum -a 256 -c
+```
+
 ## Example Usage
 
 To begin using Git LFS within a Git repository that is not already configured
@@ -95,7 +113,7 @@ $ git commit -m "add psd"
 > in your history to use Git LFS, use `git lfs migrate`. For example:
 >
 > ```
-> $ git lfs migrate import --include="*.psd"
+> $ git lfs migrate import --include="*.psd" --everything
 > ```
 >
 > For more information, read [`git-lfs-migrate(1)`](https://github.com/git-lfs/git-lfs/blob/master/docs/man/git-lfs-migrate.1.ronn).
@@ -155,16 +173,14 @@ These are the humans that form the Git LFS core team, which runs the project.
 
 In alphabetical order:
 
-| [@bk2204][bk2204-user] | [@larsxschneider][larsxschneider-user] | [@PastelMobileSuit][PastelMobileSuit-user] |
-|---|---|---|
-| [![][bk2204-img]][bk2204-user] | [![][larsxschneider-img]][larsxschneider-user] | [![][PastelMobileSuit-img]][PastelMobileSuit-user] |
+| [@bk2204][bk2204-user] | [@larsxschneider][larsxschneider-user] |
+|---|---|
+| [![][bk2204-img]][bk2204-user] | [![][larsxschneider-img]][larsxschneider-user] |
 
 [bk2204-img]: https://avatars1.githubusercontent.com/u/497054?s=100&v=4
 [larsxschneider-img]: https://avatars1.githubusercontent.com/u/477434?s=100&v=4
-[PastelMobileSuit-img]: https://avatars2.githubusercontent.com/u/37254014?s=100&v=4
 [bk2204-user]: https://github.com/bk2204
 [larsxschneider-user]: https://github.com/larsxschneider
-[PastelMobileSuit-user]: https://github.com/PastelMobileSuit
 
 ### Alumni
 
@@ -174,16 +190,18 @@ not be possible without them.
 
 In alphabetical order:
 
-| [@andyneff][andyneff-user] | [@rubyist][rubyist-user] | [@sinbad][sinbad-user] | [@technoweenie][technoweenie-user] | [@ttaylorr][ttaylorr-user] |
-|---|---|---|---|---|
-| [![][andyneff-img]][andyneff-user] | [![][rubyist-img]][rubyist-user] | [![][sinbad-img]][sinbad-user] | [![][technoweenie-img]][technoweenie-user] | [![][ttaylorr-img]][ttaylorr-user] |
+| [@andyneff][andyneff-user] | [@PastelMobileSuit][PastelMobileSuit-user] | [@rubyist][rubyist-user] | [@sinbad][sinbad-user] | [@technoweenie][technoweenie-user] | [@ttaylorr][ttaylorr-user] |
+|---|---|---|---|---|---|
+| [![][andyneff-img]][andyneff-user] | [![][PastelMobileSuit-img]][PastelMobileSuit-user] | [![][rubyist-img]][rubyist-user] | [![][sinbad-img]][sinbad-user] | [![][technoweenie-img]][technoweenie-user] | [![][ttaylorr-img]][ttaylorr-user] |
 
 [andyneff-img]: https://avatars1.githubusercontent.com/u/7596961?v=3&s=100
+[PastelMobileSuit-img]: https://avatars2.githubusercontent.com/u/37254014?s=100&v=4
 [rubyist-img]: https://avatars1.githubusercontent.com/u/143?v=3&s=100
 [sinbad-img]: https://avatars1.githubusercontent.com/u/142735?v=3&s=100
 [technoweenie-img]: https://avatars3.githubusercontent.com/u/21?v=3&s=100
 [ttaylorr-img]: https://avatars2.githubusercontent.com/u/443245?s=100&v=4
 [andyneff-user]: https://github.com/andyneff
+[PastelMobileSuit-user]: https://github.com/PastelMobileSuit
 [sinbad-user]: https://github.com/sinbad
 [rubyist-user]: https://github.com/rubyist
 [technoweenie-user]: https://github.com/technoweenie

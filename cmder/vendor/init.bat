@@ -9,13 +9,23 @@ set CMDER_INIT_START=%time%
 :: !!! Use "%CMDER_ROOT%\config\user_profile.cmd" to add your own startup commands
 
 :: Use /v command line arg or set to > 0 for verbose output to aid in debugging.
-set verbose_output=0
-set debug_output=0
-set time_init=0
-set fast_init=0
-set max_depth=1
-:: Add *nix tools to end of path. 0 turns off *nix tools.
-set nix_tools=1
+if not defined verbose_output set verbose_output=0
+
+:: Use /d command line arg or set to 1 for debug output to aid in debugging.
+if not defined debug_output set debug_output=0
+
+:: Use /t command line arg or set to 1 to display init time.
+if not defined time_init set time_init=0
+
+:: Use /f command line arg to speed up init at the expense of some functionality.
+if not defined fast_init set fast_init=0
+
+:: Use /max_depth 1-5 to set max recurse depth for calls to `enhance_path_recursive`
+if not defined max_depth set max_depth=1
+
+:: Add *nix tools to end of path. 0 turns off *nix tools, 2 adds *nix tools to the front of thr path.
+if not defined nix_tools set nix_tools=1
+
 set "CMDER_USER_FLAGS= "
 
 :: Find root dir
@@ -120,14 +130,16 @@ goto var_loop
 
 if defined CMDER_USER_CONFIG (
     %lib_console% debug_output init.bat "CMDER IS ALSO USING INDIVIDUAL USER CONFIG FROM '%CMDER_USER_CONFIG%'!"
+
+    if not exist "%CMDER_USER_CONFIG%\opt" md "%CMDER_USER_CONFIG%\opt"
 )
 
 :: Pick right version of clink
 if "%PROCESSOR_ARCHITECTURE%"=="x86" (
-    set architecture=86
+    set clink_architecture=x86
     set architecture_bits=32
 ) else (
-    set architecture=64
+    set clink_architecture=x64
     set architecture_bits=64
 )
 
@@ -141,17 +153,27 @@ if "%CMDER_CLINK%" == "1" (
       copy "%CMDER_ROOT%\vendor\clink_settings.default" "%CMDER_USER_CONFIG%\settings"
       echo Additional *.lua files in "%CMDER_USER_CONFIG%" are loaded on startup.\
     )
-    "%CMDER_ROOT%\vendor\clink\clink_x%architecture%.exe" inject --quiet --profile "%CMDER_USER_CONFIG%" --scripts "%CMDER_ROOT%\vendor"
+    "%CMDER_ROOT%\vendor\clink\clink_%clink_architecture%.exe" inject --quiet --profile "%CMDER_USER_CONFIG%" --scripts "%CMDER_ROOT%\vendor"
   ) else (
     if not exist "%CMDER_ROOT%\config\settings" (
       echo Generating clink initial settings in "%CMDER_ROOT%\config\settings"
       copy "%CMDER_ROOT%\vendor\clink_settings.default" "%CMDER_ROOT%\config\settings"
       echo Additional *.lua files in "%CMDER_ROOT%\config" are loaded on startup.
     )
-    "%CMDER_ROOT%\vendor\clink\clink_x%architecture%.exe" inject --quiet --profile "%CMDER_ROOT%\config" --scripts "%CMDER_ROOT%\vendor"
+    "%CMDER_ROOT%\vendor\clink\clink_%clink_architecture%.exe" inject --quiet --profile "%CMDER_ROOT%\config" --scripts "%CMDER_ROOT%\vendor"
   )
 ) else (
   %lib_console% verbose_output "WARNING: Incompatible 'ComSpec/Shell' Detetected Skipping Clink Injection!"
+)
+
+if "%CMDER_CONFIGURED%" GTR "1" (
+  %lib_console% verbose_output "Cmder is already configured, skipping Cmder Init!"
+
+  goto USER_ALIASES
+) else if "%CMDER_CONFIGURED%" == "1" (
+  %lib_console% verbose_output "Cmder is already configured, skipping to Cmder User Init!"
+
+  goto USER_CONFIG_START
 )
 
 :: Prepare for git-for-windows
@@ -183,9 +205,13 @@ if defined GIT_INSTALL_ROOT (
 :: check if git is in path...
 for /F "delims=" %%F in ('where git.exe 2^>nul') do (
     :: get the absolute path to the user provided git binary
-    call :is_git_shim "%%~dpF"
-    call :get_user_git_version
-    call :compare_git_versions
+    %lib_git% is_git_shim "%%~dpF"
+    %lib_git% get_user_git_version
+    %lib_git% compare_git_versions
+
+    if defined GIT_INSTALL_ROOT (
+        goto :FOUND_GIT
+    )
 )
 
 :: our last hope: our own git...
@@ -209,16 +235,17 @@ goto :CONFIGURE_GIT
 :CONFIGURE_GIT
 %lib_console% debug_output "Using Git from '%GIT_INSTALL_ROOT%..."
 :: Add git to the path
-rem add the unix commands at the end to not shadow windows commands like more
+if exist "%GIT_INSTALL_ROOT%\cmd\git.exe" %lib_path% enhance_path "%GIT_INSTALL_ROOT%\cmd" ""
+
+:: Add the unix commands at the end to not shadow windows commands like more
 if %nix_tools% equ 1 (
-    %lib_console% debug_output init.bat "Preferring Windows commands"
+    %lib_console% verbose_output "Preferring Windows commands"
     set "path_position=append"
 ) else (
-    %lib_console% debug_output init.bat "Preferring *nix commands"
+    %lib_console% verbose_output "Preferring *nix commands"
     set "path_position="
 )
 
-if exist "%GIT_INSTALL_ROOT%\cmd\git.exe" %lib_path% enhance_path "%GIT_INSTALL_ROOT%\cmd" %path_position%
 if %nix_tools% geq 1 (
     if exist "%GIT_INSTALL_ROOT%\mingw32" (
         %lib_path% enhance_path "%GIT_INSTALL_ROOT%\mingw32\bin" %path_position%
@@ -257,9 +284,11 @@ endlocal
 
 :PATH_ENHANCE
 %lib_path% enhance_path "%CMDER_ROOT%\vendor\bin"
-%lib_path% enhance_path_recursive "%CMDER_ROOT%\bin" %max_depth%
+
+:USER_CONFIG_START
+%lib_path% enhance_path_recursive "%CMDER_ROOT%\bin" 0 %max_depth%
 if defined CMDER_USER_BIN (
-  %lib_path% enhance_path_recursive "%CMDER_USER_BIN%" %max_depth%
+  %lib_path% enhance_path_recursive "%CMDER_USER_BIN%" 0 %max_depth%
 )
 %lib_path% enhance_path "%CMDER_ROOT%" append
 
@@ -270,6 +299,7 @@ if defined CMDER_USER_CONFIG (
   %lib_profile% run_profile_d "%CMDER_USER_CONFIG%\profile.d"
 )
 
+:USER_ALIASES
 :: Allows user to override default aliases store using profile.d
 :: scripts run above by setting the 'aliases' env variable.
 ::
@@ -314,6 +344,8 @@ if "%CMDER_ALIASES%" == "1" (
 :: Add aliases to the environment
 call "%user_aliases%"
 
+if "%CMDER_CONFIGURED%" gtr "1" goto CMDER_CONFIGURED
+
 :: See vendor\git-for-windows\README.portable for why we do this
 :: Basically we need to execute this post-install.bat because we are
 :: manually extracting the archive rather than executing the 7z sfx
@@ -339,7 +371,7 @@ if defined CMDER_USER_CONFIG (
   set "initialConfig=%CMDER_USER_CONFIG%\user_profile.cmd"
   if exist "%CMDER_USER_CONFIG%\user_profile.cmd" (
       REM Create this file and place your own command in there
-      %lib_console% debug_output init.bat "Calling - %CMDER_USER_CONFIG%\user_profile.cmd
+      %lib_console% debug_output init.bat "Calling - %CMDER_USER_CONFIG%\user_profile.cmd"
       call "%CMDER_USER_CONFIG%\user_profile.cmd"
   )
 )
@@ -363,64 +395,13 @@ if "%CMDER_ALIASES%" == "1" if exist "%CMDER_ROOT%\bin\alias.bat" if exist "%CMD
 )
 
 set initialConfig=
-set CMDER_CONFIGURED=1
+
+:CMDER_CONFIGURED
+if not defined CMDER_CONFIGURED set CMDER_CONFIGURED=1
 
 set CMDER_INIT_END=%time%
 
 if %time_init% gtr 0 (
-  "%cmder_root%\vendor\bin\timer.cmd" %CMDER_INIT_START% %CMDER_INIT_END%
+  "%cmder_root%\vendor\bin\timer.cmd" "%CMDER_INIT_START%" "%CMDER_INIT_END%"
 )
 exit /b
-
-:is_git_shim
-    pushd "%~1"
-    :: check if there's shim - and if yes follow the path
-    setlocal enabledelayedexpansion
-    if exist git.shim (
-        for /F "tokens=2 delims== " %%I in (git.shim) do (
-            pushd %%~dpI
-            set "test_dir=!CD!"
-            popd
-        )
-    ) else (
-        set "test_dir=!CD!"
-    )
-    endlocal & set "test_dir=%test_dir%"
-
-    popd
-    exit /b
-
-:compare_git_versions
-    if %errorlevel% geq 0 (
-        :: compare the user git version against the vendored version
-        %lib_git% compare_versions USER VENDORED
-
-        :: use the user provided git if its version is greater than, or equal to the vendored git
-        if %errorlevel% geq 0 if exist "%test_dir:~0,-4%\cmd\git.exe" (
-            set "GIT_INSTALL_ROOT=%test_dir:~0,-4%"
-            set test_dir=
-            goto :FOUND_GIT
-        ) else if %errorlevel% geq 0 (
-            set "GIT_INSTALL_ROOT=%test_dir%"
-            set test_dir=
-            goto :FOUND_GIT
-        ) else (
-            call :verbose_output Found old %GIT_VERSION_USER% in "%test_dir%", but not using...
-            set test_dir=
-        )
-    ) else (
-        :: compare the user git version against the vendored version
-        :: if the user provided git executable is not found
-        if %errorlevel% equ -255 (
-            call :verbose_output No git at "%git_executable%" found.
-            set test_dir=
-        )
-    )
-    exit /b
-
-:get_user_git_version
-    :: get the version information for the user provided git binary
-    %lib_git% read_version USER "%test_dir%"
-    %lib_git% validate_version USER %GIT_VERSION_USER%
-    exit  /b
-
